@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A4AA2129-721A-40C9-BBA1-9F37695568A3}</ProjectGuid>
-    <RootNamespace>My16_template</RootNamespace>
+    <ProjectGuid>{E3C3691E-AD54-4171-B6C0-81BFD1027D93}</ProjectGuid>
+    <RootNamespace>Other</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,6 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Sales_item.h" />
+    <ClInclude Include="test_tools.h" />
+    <ClInclude Include="common_tools.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_tools.cpp" />
+    <ClCompile Include="common_tools.cpp" />
     <ClCompile Include="_Main_.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
