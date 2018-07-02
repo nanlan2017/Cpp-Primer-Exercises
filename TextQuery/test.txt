@@ -1,0 +1,7 @@
+The standard is not intended to teach how to use C++. Rather, it is an international treaty – a formal, legal, 
+and sometimes mind-numbingly detailed technical document intended primarily for people writing C++ compilers and standard library implementations.
+Fortunately, there are lots of good books that do teach how to use C++! See these recommendations as 
+a starting point for high-quality tutorial and reference information about how to learn and use C++.
+ISO holds the copyright for all balloted and published versions of the C++ International Standard (IS) and related C++ Technical Specifications (TSes). 
+The GitHub repo contains the incremental in-progress working source snapshots as they are edited, which may frequently be in an inconsistent 
+in-progress state as edits are applied, and which does not contain the final source for any published standards.

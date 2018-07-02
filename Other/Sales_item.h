@@ -4,6 +4,7 @@
 #include "common_tools.h"
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 

@@ -15,28 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sales_item.h">
+    <ClInclude Include="StrBlob.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="common_tools.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="test_tools.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="blob.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="_Main_.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="common_tools.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test_tools.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
