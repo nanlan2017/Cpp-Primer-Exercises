@@ -18,5 +18,8 @@
     <ClCompile Include="movable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="perfect forwarding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

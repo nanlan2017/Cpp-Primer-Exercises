@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="common__tools_8h" kind="file">
+    <compoundname>common_tools.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includedby refid="_sales__item_8h" local="yes">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h</includedby>
+    <includedby refid="___main___8cpp" local="yes">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/_Main_.cpp</includedby>
+    <includedby refid="common__tools_8cpp" local="yes">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.cpp</includedby>
+    <includedby refid="test__tools_8cpp" local="yes">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.cpp</includedby>
+    <incdepgraph>
+      <node id="136">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h</label>
+        <link refid="common_tools.h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="138">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h</label>
+        <link refid="common_tools.h"/>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h</label>
+        <link refid="_sales__item_8h"/>
+        <childnode refid="140" relation="include">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/_Main_.cpp</label>
+        <link refid="___main___8cpp"/>
+      </node>
+      <node id="142">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.cpp</label>
+        <link refid="test__tools_8cpp"/>
+      </node>
+      <node id="141">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.cpp</label>
+        <link refid="common__tools_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classwjh_1_1_null_instance" prot="public">wjh::NullInstance</innerclass>
+    <innernamespace refid="namespacewjh">wjh</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="common__tools_8h_1a2674d3d1dd2f17b85d8918c7e8bbd0ea" prot="public" static="no">
+        <name>NULLOBJ</name>
+        <param><defname>Type</defname></param>
+        <initializer>*(Type*)0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="32" column="9" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_WJH_COMMON_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_WJH_COMMON_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/******************************************************************************************</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>=<sp/>Java里对任何返回类型T,都可以return<sp/>null;<sp/><sp/>我要的就是这么个<sp/>null</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight></codeline>
+<codeline lineno="7"><highlight class="comment">设计思路：</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/>我给你一个类型T，</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/><sp/>你帮我维护一个T类型的instance，它是在堆上唯一的，且提供==判断某个实例是否为它。</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"></highlight></codeline>
+<codeline lineno="11"><highlight class="comment">作用：</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/>提供一个T类型的空对象（代表状态为空的T型对象）。</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">1.<sp/>在堆上构造一个T类型的instance</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">2.<sp/>任何需要返回<sp/>“空T”<sp/>的地方，都引用此instance</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">3.<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"></highlight></codeline>
+<codeline lineno="17"><highlight class="comment">T&amp;<sp/>foo()<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>*(T*)0;<sp/>//<sp/>消除编译警告，但不安全。</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">===========================================================================================</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">T&amp;<sp/>foo()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/><sp/>return<sp/>NULL_OBJ&lt;T&gt;.ret();<sp/>//<sp/>消除编译警告,且引用的是安全的对象。</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"></highlight></codeline>
+<codeline lineno="25"><highlight class="comment">T<sp/>t<sp/>=<sp/>foo();</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">if(t==<sp/>【t-null】){</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="comment">}</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">******************************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*(Type*)0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="common__tools_8h_1a2674d3d1dd2f17b85d8918c7e8bbd0ea" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NULLOBJ(Type)<sp/>*(Type*)0</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="namespacewjh" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">wjh<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="39" refid="classwjh_1_1_null_instance" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classwjh_1_1_null_instance" kindref="compound">NullInstance</ref><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classwjh_1_1_null_instance_1a78cbe11562c9634c9f6f98c79e1e839d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classwjh_1_1_null_instance_1a78cbe11562c9634c9f6f98c79e1e839d" kindref="member">NullInstance</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" kindref="member">theOnly</ref><sp/>==<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" kindref="member">theOnly</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>T();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;the<sp/>\&quot;master&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight><highlight class="keyword">typeid</highlight><highlight class="normal">(T).name()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;<sp/>intance<sp/>just<sp/>created<sp/>@&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" kindref="member">theOnly</ref><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//static</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classwjh_1_1_null_instance_1ac10851ebee501f013fe6174f8b12d439" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T&amp;<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">()<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*<ref refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" kindref="member">theOnly</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>if(t<sp/>==<sp/>Null)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classwjh_1_1_null_instance_1a13ccc2b44fd5b77f5659c25269303c45" kindref="member">operator==</ref>(T&amp;<sp/>instance,<ref refid="classwjh_1_1_null_instance" kindref="compound">NullInstance&lt;T&gt;</ref>&amp;&amp;<sp/>nullobj);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/>当程序中使用<sp/>NullInstance&lt;Dog&gt;<sp/>nullDog<sp/>时，</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/>内存中就有了NullInstance&lt;Dog&gt;::theOnly这个全局指针变量</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T*<sp/><ref refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" kindref="member">theOnly</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*===============================<sp/><sp/>本模块的测试样例<sp/><sp/>=========================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>判断它们是否同时引用的这个“空实例”</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="namespacewjh_1adade61e41ea31484b746d77d1ed35065" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespacewjh_1adade61e41ea31484b746d77d1ed35065" kindref="member">operator==</ref>(T&amp;<sp/>instance,<sp/><ref refid="classwjh_1_1_null_instance" kindref="compound">NullInstance&lt;T&gt;</ref>&amp;&amp;<sp/>nullobj)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;instance<sp/>==<sp/>nullobj.theOnly;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacewjh_1af2acb7e3b4783cd699c9701695c7721e" kindref="member">usecase__NullInstance</ref>();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_WJH_COMMON_</highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h"/>
+  </compounddef>
+</doxygen>

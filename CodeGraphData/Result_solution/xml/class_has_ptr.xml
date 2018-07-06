@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_has_ptr" kind="class" prot="public">
+    <compoundname>HasPtr</compoundname>
+    <includes refid="_has_ptr_8h" local="no">HasPtr.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_has_ptr_1ad089eecbae9bb592f3becc3e59ed791a" prot="private" static="no" mutable="no">
+        <type>string *</type>
+        <definition>string* HasPtr::_ps</definition>
+        <argsstring></argsstring>
+        <name>_ps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="44" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_has_ptr_1a771ae083b7a3dc5ce0d8a2d100321529" compoundref="_has_ptr_8h" startline="35" endline="37">operator&gt;</referencedby>
+        <referencedby refid="_has_ptr_8h_1a1cfb388febaa16bf1433fcaee57e1ebf" compoundref="_has_ptr_8h" startline="49" endline="52">swap</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_has_ptr_1a3eb64ee4be0b107d1606bdd0747fc0c3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HasPtr::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="45" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="_has_ptr_8h_1a1cfb388febaa16bf1433fcaee57e1ebf" compoundref="_has_ptr_8h" startline="49" endline="52">swap</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_has_ptr_1aafa52ca8fb076e8131131c2f274b2bba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend void</type>
+        <definition>void swap</definition>
+        <argsstring>(HasPtr &amp;lhs, HasPtr &amp;rhs) noexcept</argsstring>
+        <name>swap</name>
+        <param>
+          <type><ref refid="class_has_ptr" kindref="compound">HasPtr</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="class_has_ptr" kindref="compound">HasPtr</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="16" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_has_ptr_1a69f4be52612d84bbc9d139f7f6eefaff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HasPtr::HasPtr</definition>
+        <argsstring>(const string &amp;s=string())</argsstring>
+        <name>HasPtr</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>s</declname>
+          <defval>string()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="19" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_has_ptr_1abb1153fca7ef2295e46d288329590ab7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HasPtr::HasPtr</definition>
+        <argsstring>(const HasPtr &amp;rhs)</argsstring>
+        <name>HasPtr</name>
+        <param>
+          <type>const <ref refid="class_has_ptr" kindref="compound">HasPtr</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="24" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_has_ptr_1ad8942ee99a977691ca61a9170d7c8ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_has_ptr" kindref="compound">HasPtr</ref> &amp;</type>
+        <definition>HasPtr&amp; HasPtr::operator=</definition>
+        <argsstring>(HasPtr rhs__)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="class_has_ptr" kindref="compound">HasPtr</ref></type>
+          <declname>rhs__</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="29" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="29" bodyend="33"/>
+        <references refid="_has_ptr_8h_1a1cfb388febaa16bf1433fcaee57e1ebf" compoundref="_has_ptr_8h" startline="49" endline="52">swap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_has_ptr_1a771ae083b7a3dc5ce0d8a2d100321529" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool HasPtr::operator&gt;</definition>
+        <argsstring>(const HasPtr &amp;rhs)</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="class_has_ptr" kindref="compound">HasPtr</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="35" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="35" bodyend="37"/>
+        <references refid="class_has_ptr_1ad089eecbae9bb592f3becc3e59ed791a" compoundref="_has_ptr_8h" startline="44">_ps</references>
+      </memberdef>
+      <memberdef kind="function" id="class_has_ptr_1a4d8c826c51665517fdca2e67493d6286" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HasPtr::~HasPtr</definition>
+        <argsstring>()</argsstring>
+        <name>~HasPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="39" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>HasPtr</label>
+        <link refid="class_has_ptr"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>_ps</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="13">
+        <label>std::string</label>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" line="14" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/HasPtr.h" bodystart="13" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_has_ptr_1ad089eecbae9bb592f3becc3e59ed791a" prot="private" virt="non-virtual"><scope>HasPtr</scope><name>_ps</name></member>
+      <member refid="class_has_ptr_1a69f4be52612d84bbc9d139f7f6eefaff" prot="public" virt="non-virtual"><scope>HasPtr</scope><name>HasPtr</name></member>
+      <member refid="class_has_ptr_1abb1153fca7ef2295e46d288329590ab7" prot="public" virt="non-virtual"><scope>HasPtr</scope><name>HasPtr</name></member>
+      <member refid="class_has_ptr_1a3eb64ee4be0b107d1606bdd0747fc0c3" prot="private" virt="non-virtual"><scope>HasPtr</scope><name>i</name></member>
+      <member refid="class_has_ptr_1ad8942ee99a977691ca61a9170d7c8ba3" prot="public" virt="non-virtual"><scope>HasPtr</scope><name>operator=</name></member>
+      <member refid="class_has_ptr_1a771ae083b7a3dc5ce0d8a2d100321529" prot="public" virt="non-virtual"><scope>HasPtr</scope><name>operator&gt;</name></member>
+      <member refid="class_has_ptr_1aafa52ca8fb076e8131131c2f274b2bba" prot="public" virt="non-virtual"><scope>HasPtr</scope><name>swap</name></member>
+      <member refid="class_has_ptr_1a4d8c826c51665517fdca2e67493d6286" prot="public" virt="non-virtual"><scope>HasPtr</scope><name>~HasPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

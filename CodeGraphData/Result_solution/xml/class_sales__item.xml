@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sales__item" kind="class" prot="public">
+    <compoundname>Sales_item</compoundname>
+    <includes refid="_sales__item_8h" local="no">Sales_item.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sales_item::isbn</definition>
+        <argsstring></argsstring>
+        <name>isbn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="31" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="_sales__item_8h_1ac07d2b2a058d92024f0be7b148130200" compoundref="_sales__item_8h" startline="38" endline="43">operator&gt;&gt;</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sales__item_1a3a867addcfcb2fb9e6805e1a670c9241" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sales_item::price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="32" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="_sales__item_8h_1ac07d2b2a058d92024f0be7b148130200" compoundref="_sales__item_8h" startline="38" endline="43">operator&gt;&gt;</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sales__item_1ac2ebe4fd22d6838ef282563a31cc1b99" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sales_item::amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="33" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="_sales__item_8h_1ac07d2b2a058d92024f0be7b148130200" compoundref="_sales__item_8h" startline="38" endline="43">operator&gt;&gt;</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sales__item_1aefc851603fd8e8a8d04ab5fa94cfbe08" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sales_item::money</definition>
+        <argsstring></argsstring>
+        <name>money</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="34" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sales__item_1a8371d7ede59e11ea3a3625dc689cf35d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Sales_item::Sales_item</definition>
+        <argsstring>()=default</argsstring>
+        <name>Sales_item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sales__item_1a22888bd24b6c1befb13e49f6cc08f5fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+        <definition>Sales_item&amp; Sales_item::operator=</definition>
+        <argsstring>(const Sales_item &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="16" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sales__item_1a195f131ec8fbe70b725824590fe2adf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+        <definition>Sales_item&amp; Sales_item::operator+=</definition>
+        <argsstring>(const Sales_item &amp;rhs)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="21" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="21" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_sales__item_1a97082a9d19d5c095066cf97baeae9443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_sales__item" kindref="compound">Sales_item</ref></type>
+        <definition>Sales_item operator+</definition>
+        <argsstring>(const Sales_item &amp;lhs, const Sales_item &amp;rhs)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_sales__item_1ac07d2b2a058d92024f0be7b148130200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend istream &amp;</type>
+        <definition>istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;cin, Sales_item &amp;book)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>cin</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+          <declname>book</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="27" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_sales__item_1a45ad216f9cead7ee099588572d9ba4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;cout, const Sales_item &amp;book)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>cout</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+          <declname>book</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="28" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="46" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="44">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="42">
+        <label>Sales_item</label>
+        <link refid="class_sales__item"/>
+        <childnode refid="43" relation="usage">
+          <edgelabel>isbn</edgelabel>
+        </childnode>
+      </node>
+      <node id="43">
+        <label>std::string</label>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="12" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="11" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_sales__item_1ac2ebe4fd22d6838ef282563a31cc1b99" prot="private" virt="non-virtual"><scope>Sales_item</scope><name>amount</name></member>
+      <member refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" prot="private" virt="non-virtual"><scope>Sales_item</scope><name>isbn</name></member>
+      <member refid="class_sales__item_1aefc851603fd8e8a8d04ab5fa94cfbe08" prot="private" virt="non-virtual"><scope>Sales_item</scope><name>money</name></member>
+      <member refid="class_sales__item_1a97082a9d19d5c095066cf97baeae9443" prot="public" virt="non-virtual"><scope>Sales_item</scope><name>operator+</name></member>
+      <member refid="class_sales__item_1a195f131ec8fbe70b725824590fe2adf1" prot="public" virt="non-virtual"><scope>Sales_item</scope><name>operator+=</name></member>
+      <member refid="class_sales__item_1a45ad216f9cead7ee099588572d9ba4c4" prot="public" virt="non-virtual"><scope>Sales_item</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_sales__item_1a22888bd24b6c1befb13e49f6cc08f5fe" prot="public" virt="non-virtual"><scope>Sales_item</scope><name>operator=</name></member>
+      <member refid="class_sales__item_1ac07d2b2a058d92024f0be7b148130200" prot="public" virt="non-virtual"><scope>Sales_item</scope><name>operator&gt;&gt;</name></member>
+      <member refid="class_sales__item_1a3a867addcfcb2fb9e6805e1a670c9241" prot="private" virt="non-virtual"><scope>Sales_item</scope><name>price</name></member>
+      <member refid="class_sales__item_1a8371d7ede59e11ea3a3625dc689cf35d" prot="public" virt="non-virtual"><scope>Sales_item</scope><name>Sales_item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

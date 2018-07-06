@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_str_vec_8cpp" kind="file">
+    <compoundname>StrVec.cpp</compoundname>
+    <includes refid="_str_vec_8h" local="yes">StrVec.h</includes>
+    <includes local="no">memory</includes>
+    <incdepgraph>
+      <node id="165">
+        <label>StrVec.h</label>
+        <link refid="_str_vec_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>string</label>
+      </node>
+      <node id="164">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/StrVec/StrVec.cpp</label>
+        <link refid="StrVec.cpp"/>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_str_vec_8h" kindref="compound">StrVec.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_str_vec_1a938ca6bc1a8ab3c34b6918a11f05242b" refkind="member"><highlight class="normal"><ref refid="class_str_vec_1a55d0d44b556352d7b78d69fec7a25353" kindref="member">StrVec::StrVec</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_str_vec" kindref="compound">StrVec</ref>&amp;<sp/>copyobj)<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>pair<sp/>=<sp/><ref refid="class_str_vec_1a9d191c0cfc1b60791e019faa96299465" kindref="member">alloc_n_copy</ref>(copyobj.<ref refid="class_str_vec_1a0d932f30cfc102248daeab1a305043b0" kindref="member">_elments</ref>,<sp/>copyobj.<ref refid="class_str_vec_1af9e9502872d61f53588d4019f2d3e847" kindref="member">_first_free</ref>);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_str_vec_1a0d932f30cfc102248daeab1a305043b0" kindref="member">_elments</ref><sp/>=<sp/>pair.first;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_str_vec_1a9521c4ac9fc9cbcbf536ac54b9cd3a53" kindref="member">_cap</ref>=<sp/><ref refid="class_str_vec_1af9e9502872d61f53588d4019f2d3e847" kindref="member">_first_free</ref><sp/>=<sp/>pair.second;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_str_vec_1a12c68a02e6b0ae1dc496b8680d362f86" refkind="member"><highlight class="normal"><ref refid="class_str_vec" kindref="compound">StrVec</ref>&amp;<sp/><ref refid="class_str_vec_1a12c68a02e6b0ae1dc496b8680d362f86" kindref="member">StrVec::operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_str_vec" kindref="compound">StrVec</ref>&amp;<sp/>right)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_str_vec_1a06a7f7658937130106ec0a362648505b" refkind="member"><highlight class="normal"><ref refid="class_str_vec_1a06a7f7658937130106ec0a362648505b" kindref="member">StrVec::~StrVec</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_str_vec_1a9934ad71b2cea1c9d8e266ce3b2dbfb0" kindref="member">free</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_str_vec_1a0abe4a785fe8bfab84a41f844dbe4388" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_str_vec_1a0abe4a785fe8bfab84a41f844dbe4388" kindref="member">StrVec::push_back</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>str)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>保证容量足够</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_str_vec_1ad0064d6cbfa2ce362d73d63f6f021ca9" kindref="member">chk_n_alloc</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>使用allocator构造元素</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_str_vec_1a3cc951391d4baa836a0bfe225497a809" kindref="member">alloc</ref>.construct(<ref refid="class_str_vec_1af9e9502872d61f53588d4019f2d3e847" kindref="member">_first_free</ref>++,<sp/>str);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_str_vec_1a9d191c0cfc1b60791e019faa96299465" refkind="member"><highlight class="normal">pair&lt;string*,<sp/>string*&gt;<sp/><ref refid="class_str_vec_1a9d191c0cfc1b60791e019faa96299465" kindref="member">StrVec::alloc_n_copy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>begin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>end)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>data<sp/>=<sp/><ref refid="class_str_vec_1a3cc951391d4baa836a0bfe225497a809" kindref="member">alloc</ref>.allocate(end<sp/>-<sp/>begin);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/>{<sp/>data,uninitialized_copy(begin,end,data)<sp/>};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_str_vec_1a9934ad71b2cea1c9d8e266ce3b2dbfb0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_str_vec_1a9934ad71b2cea1c9d8e266ce3b2dbfb0" kindref="member">StrVec::free</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>pt<sp/>=<sp/><ref refid="class_str_vec_1a0d932f30cfc102248daeab1a305043b0" kindref="member">_elments</ref>;<sp/>pt<sp/>!=<sp/><ref refid="class_str_vec_1af9e9502872d61f53588d4019f2d3e847" kindref="member">_first_free</ref>;<sp/>pt++)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_str_vec_1a3cc951391d4baa836a0bfe225497a809" kindref="member">alloc</ref>.destroy(pt);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_str_vec_1a3cc951391d4baa836a0bfe225497a809" kindref="member">alloc</ref>.deallocate(<ref refid="class_str_vec_1a0d932f30cfc102248daeab1a305043b0" kindref="member">_elments</ref>,<sp/><ref refid="class_str_vec_1a08a9f1648e06600a8b540d801c261621" kindref="member">size</ref>());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_str_vec_1a131cc28cadcfa077942282f76b0714cb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_str_vec_1a131cc28cadcfa077942282f76b0714cb" kindref="member">StrVec::reallocate</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/>先重新获取块更大的内存；（2倍）</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/>把当前内容拷贝过去；</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/>释放当前内存；</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/>^^^^^^^^^^^^^^^^^^^^^^^^*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">*<sp/>new_elements<sp/>=<sp/><ref refid="class_str_vec_1a3cc951391d4baa836a0bfe225497a809" kindref="member">alloc</ref>.allocate(2<sp/>*<sp/><ref refid="class_str_vec_1a08a9f1648e06600a8b540d801c261621" kindref="member">size</ref>());</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/StrVec/StrVec.cpp"/>
+  </compounddef>
+</doxygen>

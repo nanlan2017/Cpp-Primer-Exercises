@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{225E5B8F-0530-4BA6-9A77-FB569A8F74CD}</ProjectGuid>
-    <RootNamespace>movesemantics</RootNamespace>
+    <ProjectGuid>{1BAEE041-82B7-4A7F-B103-9BA8ADA8469A}</ProjectGuid>
+    <RootNamespace>ex16_4</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,8 +110,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="movable.cpp" />
-    <ClCompile Include="perfect forwarding.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="wex16_4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_has_ptr_mem" kind="class"><name>HasPtrMem</name>
+    <member refid="class_has_ptr_mem_1a487733d5c48f14e34c8136e28d374c51" kind="typedef"><name>Res</name></member>
+    <member refid="class_has_ptr_mem_1acd0bef98b9a4bbfaeeb8eef63f428822" kind="variable"><name>_d</name></member>
+    <member refid="class_has_ptr_mem_1a534056caaa6b3b36073c1c30faa50da6" kind="function"><name>HasPtrMem</name></member>
+    <member refid="class_has_ptr_mem_1aa0c81075e9638bf43d1daf2a832a9b96" kind="function"><name>HasPtrMem</name></member>
+    <member refid="class_has_ptr_mem_1a725ac998a02bf0069c628106557607ba" kind="function"><name>HasPtrMem</name></member>
+    <member refid="class_has_ptr_mem_1a847479da596068070a1bf4f8cca31456" kind="function"><name>operator=</name></member>
+    <member refid="class_has_ptr_mem_1a8cc088ac293d21b81ba23b6080aa2bb8" kind="function"><name>operator=</name></member>
+    <member refid="class_has_ptr_mem_1a05d2abac0ea9cf7b6a739786d921a4e3" kind="function"><name>~HasPtrMem</name></member>
+  </compound>
+  <compound refid="class_huge_mem" kind="class"><name>HugeMem</name>
+    <member refid="class_huge_mem_1ae9e7483c88e082c864d84fc1bbcd01a0" kind="variable"><name>size</name></member>
+    <member refid="class_huge_mem_1a04dbe8b6f425fca4899fe7fbc4bd3308" kind="variable"><name>_elements</name></member>
+    <member refid="class_huge_mem_1a6fa3e1fb91a4107e28ed71b3c68711b4" kind="function"><name>HugeMem</name></member>
+    <member refid="class_huge_mem_1ae2d160c26707c27cb57f65abb5881871" kind="function"><name>HugeMem</name></member>
+    <member refid="class_huge_mem_1abb6d37a3352963a5ef1cf3e466158a34" kind="function"><name>HugeMem</name></member>
+    <member refid="class_huge_mem_1ae58317dbb7632ecc596fc84b520a9ae3" kind="function"><name>~HugeMem</name></member>
+  </compound>
+  <compound refid="class_moveable" kind="class"><name>Moveable</name>
+    <member refid="class_moveable_1a07ecb168c0603d1f6f9a5936f18af66f" kind="variable"><name>_i</name></member>
+    <member refid="class_moveable_1ace0f0bd4d63befee802e8f02bafebbfe" kind="variable"><name>res</name></member>
+    <member refid="class_moveable_1a0fa75367f721e584dd49ec4e936c9e24" kind="function"><name>Moveable</name></member>
+    <member refid="class_moveable_1af1801d5a52afa1a75ae1942c243c9dd8" kind="function"><name>Moveable</name></member>
+    <member refid="class_moveable_1a09e0592f25e24d4d73674cc4fab56d31" kind="function"><name>~Moveable</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="movable_8cpp" kind="file"><name>movable.cpp</name>
+    <member refid="movable_8cpp_1a2ea739aee604bd12d163e0d0970fc5be" kind="function"><name>getTemp</name></member>
+    <member refid="movable_8cpp_1a081c6179ea2e34a5761ca5e887432cf4" kind="function"><name>main1</name></member>
+    <member refid="movable_8cpp_1ad6d65ab7ae3e5ef769fd01b39cd63d07" kind="function"><name>getTemp2</name></member>
+    <member refid="movable_8cpp_1af095a232149097b5605064623a9345ac" kind="function"><name>main2</name></member>
+    <member refid="movable_8cpp_1a4f09132956dfee2d7e9ce720cda010ea" kind="function"><name>main3</name></member>
+    <member refid="movable_8cpp_1aee3b7c0c7f04609ceecd8045ac44256c" kind="function"><name>forwardValue</name></member>
+    <member refid="movable_8cpp_1a89e0eaa1653c51d7c9cf6683e0d23b5e" kind="function"><name>__processValue</name></member>
+    <member refid="movable_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="perfect_01forwarding_8cpp" kind="file"><name>perfect forwarding.cpp</name>
+    <member refid="perfect_01forwarding_8cpp_1aa58d3943b5373b78c7e70c71198b0181" kind="function"><name>f2</name></member>
+    <member refid="perfect_01forwarding_8cpp_1aab5296705d40aaa44d1027b40928771c" kind="function"><name>f2</name></member>
+    <member refid="perfect_01forwarding_8cpp_1abb8b8218760792d4e8e4ea8f9cd6ca9e" kind="function"><name>f2</name></member>
+    <member refid="perfect_01forwarding_8cpp_1afa25e366161fb651881b72ba7efc71ac" kind="function"><name>f2</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a605b9ba29fdf371ede2e62bd33983e6e" kind="function"><name>f1</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a2e6413ff11e6a9b8664572705c8f6583" kind="function"><name>f3</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a5629528700085b2b152fcb01c48b8f3c" kind="function"><name>foo</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a49a4b11e50430aa0a78de989ea99e082" kind="function"><name>bar</name></member>
+  </compound>
+  <compound refid="dir_73ee1171eec6cff3fe1ca483619c1a3f" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises</name>
+  </compound>
+  <compound refid="dir_51d0e6150a1cc2017e0081a51376c551" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics</name>
+  </compound>
+  <compound refid="dir_276de1ef4b336700f00e77274afd08a9" kind="dir"><name>C:/workspace/vs_wspace</name>
+  </compound>
+  <compound refid="dir_a5be7bbed3ff2f129951759fe96bf5d5" kind="dir"><name>C:/workspace</name>
+  </compound>
+</doxygenindex>

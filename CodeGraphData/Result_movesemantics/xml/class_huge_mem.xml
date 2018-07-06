@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_huge_mem" kind="class" prot="public">
+    <compoundname>HugeMem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_huge_mem_1ae9e7483c88e082c864d84fc1bbcd01a0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HugeMem::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="102" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_huge_mem_1a04dbe8b6f425fca4899fe7fbc4bd3308" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* HugeMem::_elements</definition>
+        <argsstring></argsstring>
+        <name>_elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="103" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="103" bodyend="-1"/>
+        <referencedby refid="class_huge_mem_1ae2d160c26707c27cb57f65abb5881871" compoundref="movable_8cpp" startline="84" endline="91">HugeMem</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_huge_mem_1a6fa3e1fb91a4107e28ed71b3c68711b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HugeMem::HugeMem</definition>
+        <argsstring>(int sz)</argsstring>
+        <name>HugeMem</name>
+        <param>
+          <type>int</type>
+          <declname>sz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="78" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_huge_mem_1ae2d160c26707c27cb57f65abb5881871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HugeMem::HugeMem</definition>
+        <argsstring>(const HugeMem &amp;rhs)</argsstring>
+        <name>HugeMem</name>
+        <param>
+          <type>const <ref refid="class_huge_mem" kindref="compound">HugeMem</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="84" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="84" bodyend="91"/>
+        <references refid="class_huge_mem_1a04dbe8b6f425fca4899fe7fbc4bd3308" compoundref="movable_8cpp" startline="103">_elements</references>
+      </memberdef>
+      <memberdef kind="function" id="class_huge_mem_1abb6d37a3352963a5ef1cf3e466158a34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HugeMem::HugeMem</definition>
+        <argsstring>(HugeMem &amp;&amp;rTemp) noexcept</argsstring>
+        <name>HugeMem</name>
+        <param>
+          <type><ref refid="class_huge_mem" kindref="compound">HugeMem</ref> &amp;&amp;</type>
+          <declname>rTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="93" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_huge_mem_1ae58317dbb7632ecc596fc84b520a9ae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HugeMem::~HugeMem</definition>
+        <argsstring>()</argsstring>
+        <name>~HugeMem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="100" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="100" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="76" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="75" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_huge_mem_1a04dbe8b6f425fca4899fe7fbc4bd3308" prot="public" virt="non-virtual"><scope>HugeMem</scope><name>_elements</name></member>
+      <member refid="class_huge_mem_1a6fa3e1fb91a4107e28ed71b3c68711b4" prot="public" virt="non-virtual"><scope>HugeMem</scope><name>HugeMem</name></member>
+      <member refid="class_huge_mem_1ae2d160c26707c27cb57f65abb5881871" prot="public" virt="non-virtual"><scope>HugeMem</scope><name>HugeMem</name></member>
+      <member refid="class_huge_mem_1abb6d37a3352963a5ef1cf3e466158a34" prot="public" virt="non-virtual"><scope>HugeMem</scope><name>HugeMem</name></member>
+      <member refid="class_huge_mem_1ae9e7483c88e082c864d84fc1bbcd01a0" prot="public" virt="non-virtual"><scope>HugeMem</scope><name>size</name></member>
+      <member refid="class_huge_mem_1ae58317dbb7632ecc596fc84b520a9ae3" prot="public" virt="non-virtual"><scope>HugeMem</scope><name>~HugeMem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

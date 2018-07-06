@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7973d78e187017af2e67fb6903945746" kind="dir">
+    <compoundname>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder</compoundname>
+    <innerfile refid="msg__folder_8h">msg_folder.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/"/>
+  </compounddef>
+</doxygen>

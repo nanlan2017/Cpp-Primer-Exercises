@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ex16_1~3.cpp" />
+    <ClCompile Include="ex16_4.cpp" />
+    <ClCompile Include="ex16_7.cpp" />
+    <ClCompile Include="src1.cpp" />
+    <ClCompile Include="src2.cpp" />
+    <ClCompile Include="src3.cpp" />
+    <ClCompile Include="vec_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vec.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A4AA2129-721A-40C9-BBA1-9F37695568A3}</ProjectGuid>
     <RootNamespace>My16_template</RootNamespace>
@@ -109,9 +121,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="_Main_.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

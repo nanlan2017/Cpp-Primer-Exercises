@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="test__tools_8cpp" kind="file">
+    <compoundname>test_tools.cpp</compoundname>
+    <includes refid="test__tools_8h" local="yes">test_tools.h</includes>
+    <includes refid="common__tools_8h" local="yes">common_tools.h</includes>
+    <incdepgraph>
+      <node id="152">
+        <label>common_tools.h</label>
+        <link refid="common__tools_8h"/>
+        <childnode refid="153" relation="include">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>test_tools.h</label>
+        <link refid="test__tools_8h"/>
+      </node>
+      <node id="153">
+        <label>iostream</label>
+      </node>
+      <node id="150">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.cpp</label>
+        <link refid="test_tools.cpp"/>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="test__tools_8h" kindref="compound">test_tools.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common__tools_8h" kindref="compound">common_tools.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">wjh;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespacewjh_1af2c507f1aa80fa586632c9d9de5d7e8d" refkind="member"><highlight class="normal"><ref refid="classwjh_1_1_dog" kindref="compound">Dog</ref>&amp;<sp/><ref refid="namespacewjh_1af2c507f1aa80fa586632c9d9de5d7e8d" kindref="member">wjh::backDog</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classwjh_1_1_null_instance" kindref="compound">NullInstance&lt;Dog&gt;</ref>().</highlight><highlight class="keyword">get</highlight><highlight class="normal">();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.cpp"/>
+  </compounddef>
+</doxygen>

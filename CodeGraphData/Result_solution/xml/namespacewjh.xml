@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacewjh" kind="namespace">
+    <compoundname>wjh</compoundname>
+    <innerclass refid="classwjh_1_1_null_instance" prot="public">wjh::NullInstance</innerclass>
+    <innerclass refid="classwjh_1_1_dog" prot="public">wjh::Dog</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacewjh_1adade61e41ea31484b746d77d1ed35065" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool wjh::operator==</definition>
+        <argsstring>(T &amp;instance, NullInstance&lt; T &gt; &amp;&amp;nullobj)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type><ref refid="classwjh_1_1_null_instance" kindref="compound">NullInstance</ref>&lt; T &gt; &amp;&amp;</type>
+          <declname>nullobj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="72" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacewjh_1af2acb7e3b4783cd699c9701695c7721e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wjh::usecase__NullInstance</definition>
+        <argsstring>()</argsstring>
+        <name>usecase__NullInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="76" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.cpp" bodystart="7" bodyend="22"/>
+        <references refid="namespacewjh_1af2c507f1aa80fa586632c9d9de5d7e8d" compoundref="test__tools_8cpp" startline="6" endline="8">backDog</references>
+        <referencedby refid="___main___8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="___main___8cpp" startline="8" endline="17">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespacewjh_1af2c507f1aa80fa586632c9d9de5d7e8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwjh_1_1_dog" kindref="compound">Dog</ref> &amp;</type>
+        <definition>Dog &amp; wjh::backDog</definition>
+        <argsstring>()</argsstring>
+        <name>backDog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.h" line="13" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.cpp" bodystart="6" bodyend="8"/>
+        <referencedby refid="namespacewjh_1af2acb7e3b4783cd699c9701695c7721e" compoundref="common__tools_8cpp" startline="7" endline="22">usecase__NullInstance</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="36" column="1"/>
+  </compounddef>
+</doxygen>

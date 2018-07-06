@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="src2_8cpp" kind="file">
+    <compoundname>src2.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/istream</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/ostream</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/ios</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xlocnum</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/climits</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cmath</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cstdio</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cstdlib</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/streambuf</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xiosbase</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xlocale</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cstring</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/stdexcept</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/typeinfo</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xlocinfo</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xlocinfo.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xstddef</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xfacet</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/yvals.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/system_error</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cerrno</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt/errno.h</includes>
+    <includes local="no">C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt/share.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">cstring</includes>
+    <incdepgraph>
+      <node id="80">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt/errno.h</label>
+      </node>
+      <node id="71">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/stdexcept</label>
+      </node>
+      <node id="70">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cstring</label>
+      </node>
+      <node id="62">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xlocnum</label>
+      </node>
+      <node id="63">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/climits</label>
+      </node>
+      <node id="74">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xlocinfo.h</label>
+      </node>
+      <node id="59">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/istream</label>
+      </node>
+      <node id="67">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/streambuf</label>
+      </node>
+      <node id="72">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/typeinfo</label>
+      </node>
+      <node id="79">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cerrno</label>
+      </node>
+      <node id="57">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp</label>
+        <link refid="src2.cpp"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/system_error</label>
+      </node>
+      <node id="65">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cstdio</label>
+      </node>
+      <node id="82">
+        <label>vector</label>
+      </node>
+      <node id="73">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xlocinfo</label>
+      </node>
+      <node id="60">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/ostream</label>
+      </node>
+      <node id="75">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xstddef</label>
+      </node>
+      <node id="58">
+        <label>iostream</label>
+      </node>
+      <node id="77">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/yvals.h</label>
+      </node>
+      <node id="76">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xfacet</label>
+      </node>
+      <node id="64">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cmath</label>
+      </node>
+      <node id="68">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xiosbase</label>
+      </node>
+      <node id="61">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/ios</label>
+      </node>
+      <node id="83">
+        <label>cstring</label>
+      </node>
+      <node id="69">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xlocale</label>
+      </node>
+      <node id="81">
+        <label>C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt/share.h</label>
+      </node>
+      <node id="66">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/cstdlib</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="src2_8cpp_1ab641736dc57c4d5b2c5611e48b972a18" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char ca[]</definition>
+        <argsstring>[]</argsstring>
+        <name>ca</name>
+        <initializer>= &quot;Caroline&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" line="44" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="src2_8cpp_1a9d91e00ad92a7790552542c034eb785f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char cr[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>cr</name>
+        <initializer>= &quot;Caroline&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" line="45" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="src2_8cpp_1a9f4b5c4f1ed14bd2f528cd37e8c3fad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>unsigned</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+          <param>
+            <type>unsigned</type>
+            <declname>M</declname>
+            <defname>M</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool compare</definition>
+        <argsstring>(const char(&amp;p1)[N], const char(&amp;p2)[M])</argsstring>
+        <name>compare</name>
+        <param>
+          <type>const char(&amp;)</type>
+          <declname>p1</declname>
+          <array>[N]</array>
+        </param>
+        <param>
+          <type>const char(&amp;)</type>
+          <declname>p2</declname>
+          <array>[M]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" line="20" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" bodystart="20" bodyend="24"/>
+        <references refid="src3_8cpp_1ab43cf1e9bb9ba89c6df1a189535265a9" compoundref="src3_8cpp" startline="29">p1</references>
+        <references refid="src3_8cpp_1a3d8b68b625409f60fdc454759fbcb7c2" compoundref="src3_8cpp" startline="31">p2</references>
+        <referencedby refid="src2_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="src2_8cpp" startline="48" endline="64">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="src2_8cpp_1adb19f4ea3d29c4d4779f10c72a4b4890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>const char *</type>
+            <declname>C</declname>
+            <defname>C</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void pointerT</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>pointerT</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" line="28" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="src2_8cpp_1ad0fbf7ead523a388c3b02d7c2918be28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>char(&amp;)</type>
+            <declname>ra</declname>
+            <defname>ra</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void referenceT</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>referenceT</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" line="34" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="src2_8cpp_1a91b4ac76ca40b37cc8321c8f57397c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>void(*)(const char *)</type>
+            <declname>F</declname>
+            <defname>F</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void fpointerT</definition>
+        <argsstring>(const char *c)</argsstring>
+        <name>fpointerT</name>
+        <param>
+          <type>const char *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" line="40" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="src2_8cpp_1a866c070668e3bc99fcd407a5f9a4e9e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void foo</definition>
+        <argsstring>(const char *c)</argsstring>
+        <name>foo</name>
+        <param>
+          <type>const char *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" line="46" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="src2_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" line="48" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp" bodystart="48" bodyend="64"/>
+        <references refid="src2_8cpp_1a9f4b5c4f1ed14bd2f528cd37e8c3fad5" compoundref="src2_8cpp" startline="20" endline="24">compare</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//=====================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Name<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>CppPrimer.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Author<sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Caroline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Version<sp/><sp/><sp/><sp/><sp/>:<sp/>1.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Description<sp/>:<sp/>Example,<sp/>UTF-8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//=====================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">/*eclipse<sp/>cdt,<sp/>gcc<sp/>4.8.1*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>https://blog.csdn.net/caroline_wendy/article/details/17219921#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//整型模板</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>N,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>M&gt;</highlight></codeline>
+<codeline lineno="20" refid="src2_8cpp_1a9f4b5c4f1ed14bd2f528cd37e8c3fad5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="src2_8cpp_1a9f4b5c4f1ed14bd2f528cd37e8c3fad5" kindref="member">compare</ref><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>(&amp;<ref refid="src3_8cpp_1ab43cf1e9bb9ba89c6df1a189535265a9" kindref="member">p1</ref>)[N],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>(&amp;<ref refid="src3_8cpp_1a3d8b68b625409f60fdc454759fbcb7c2" kindref="member">p2</ref>)[M])</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;size<sp/>:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>N<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>M<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strcmp(<ref refid="src3_8cpp_1ab43cf1e9bb9ba89c6df1a189535265a9" kindref="member">p1</ref>,<sp/><ref refid="src3_8cpp_1a3d8b68b625409f60fdc454759fbcb7c2" kindref="member">p2</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//指针</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>C&gt;</highlight></codeline>
+<codeline lineno="28" refid="src2_8cpp_1adb19f4ea3d29c4d4779f10c72a4b4890" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="src2_8cpp_1adb19f4ea3d29c4d4779f10c72a4b4890" kindref="member">pointerT</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str){</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>C<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>str<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//引用</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>(&amp;ra)[9]&gt;</highlight></codeline>
+<codeline lineno="34" refid="src2_8cpp_1ad0fbf7ead523a388c3b02d7c2918be28" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="src2_8cpp_1ad0fbf7ead523a388c3b02d7c2918be28" kindref="member">referenceT</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/>ra<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>str<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//函数指针</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*F)(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)&gt;</highlight></codeline>
+<codeline lineno="40" refid="src2_8cpp_1a91b4ac76ca40b37cc8321c8f57397c04" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="src2_8cpp_1a91b4ac76ca40b37cc8321c8f57397c04" kindref="member">fpointerT</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="src3_8cpp_1a9aeb000de2fa395e3aff1785a0843970" kindref="member">c</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>F(c);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="src2_8cpp_1ab641736dc57c4d5b2c5611e48b972a18" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="src2_8cpp_1ab641736dc57c4d5b2c5611e48b972a18" kindref="member">ca</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Caroline&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//初始化指针</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="src2_8cpp_1a9d91e00ad92a7790552542c034eb785f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="src2_8cpp_1a9d91e00ad92a7790552542c034eb785f" kindref="member">cr</ref>[9]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Caroline&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//初始化引用,<sp/>包含一个结尾符号</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="src2_8cpp_1a866c070668e3bc99fcd407a5f9a4e9e7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="src2_8cpp_1a866c070668e3bc99fcd407a5f9a4e9e7" kindref="member">foo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="src3_8cpp_1a9aeb000de2fa395e3aff1785a0843970" kindref="member">c</ref>)<sp/>{std::cout<sp/>&lt;&lt;<sp/>c<sp/>&lt;&lt;<sp/>std::endl;<sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="48" refid="src2_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="src2_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="src2_8cpp_1a9f4b5c4f1ed14bd2f528cd37e8c3fad5" kindref="member">compare</ref>(</highlight><highlight class="stringliteral">&quot;Caroline&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Wendy&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Caroline<sp/>is<sp/>long.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Wendy<sp/>is<sp/>long.&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//无法使用局部变量或者动态变量作为模板参数</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpointer_t" kindref="compound">pointerT&lt;ca&gt;</ref>(</highlight><highlight class="stringliteral">&quot;Wendy&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//指针</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>referenceT&lt;cr&gt;(</highlight><highlight class="stringliteral">&quot;Wendy&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//引用</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>fpointerT&lt;foo&gt;(</highlight><highlight class="stringliteral">&quot;Caroline<sp/>Wendy&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//函数指针</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">/*********************************************************</highlight></codeline>
+<codeline lineno="66"><highlight class="comment">size<sp/>:<sp/>9<sp/>6</highlight></codeline>
+<codeline lineno="67"><highlight class="comment">Caroline<sp/>is<sp/>long.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment">Caroline<sp/>Wendy</highlight></codeline>
+<codeline lineno="69"><highlight class="comment">Caroline<sp/>Wendy</highlight></codeline>
+<codeline lineno="70"><highlight class="comment">Caroline<sp/>Wendy</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">*********************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src2.cpp"/>
+  </compounddef>
+</doxygen>

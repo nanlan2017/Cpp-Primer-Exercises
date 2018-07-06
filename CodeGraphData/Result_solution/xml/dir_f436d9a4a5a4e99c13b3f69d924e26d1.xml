@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f436d9a4a5a4e99c13b3f69d924e26d1" kind="dir">
+    <compoundname>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control</compoundname>
+    <innerfile refid="compile__options_8h">compile_options.h</innerfile>
+    <innerfile refid="ex13__28_8h">ex13_28.h</innerfile>
+    <innerfile refid="_has_ptr_8h">HasPtr.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="src1_8cpp" kind="file">
+    <compoundname>src1.cpp</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="src1_8cpp_1aae0f48d173700f7e46d8f37aceecf70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int compair</definition>
+        <argsstring>(const T &amp;v1, const T &amp;v2)</argsstring>
+        <name>compair</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src1.cpp" line="5" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src1.cpp" bodystart="5" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>T的实际类型<sp/>于编译器由compare()的使用情况确定</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="5" refid="src1_8cpp_1aae0f48d173700f7e46d8f37aceecf70f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="src1_8cpp_1aae0f48d173700f7e46d8f37aceecf70f" kindref="member">compair</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>v1,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>v2)<sp/></highlight><highlight class="comment">//<sp/>推断：T的实际类型<sp/>就是你调用的实参的类型。</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v1<sp/>&gt;v2)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v1<sp/>&lt;v2)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//TODO<sp/>如果不能通过<sp/>调用时的实参（具体类型）————&gt;<sp/>形参（T的衍生类型/具体类型）</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//TODO<sp/><sp/>则必须显式指定类型吧！！</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">模板：就是代表类型未定。<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"></highlight></codeline>
+<codeline lineno="18"><highlight class="comment">function<sp/>template<sp/>其实有两种参数：</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/><sp/>一种是template<sp/>parameter，用于实例化该模板。又分为：①<sp/>type<sp/>parameter<sp/>②non-type<sp/>parameter</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>（编译时就已经做完类型推导、完成了实例化——&gt;<sp/>成为一个普通类/普通函数）</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/>一种是实例化该模板后的<sp/>使用时的“value<sp/>parameter”：使用实例化后的<sp/>普通类/普通函数</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"></highlight></codeline>
+<codeline lineno="23"><highlight class="comment"></highlight></codeline>
+<codeline lineno="24"><highlight class="comment">non-type<sp/>parameter:表示一个值，而非一个类型</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/>那么为什么这个值不作为<sp/>使用时的“value<sp/>parameter”？</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/>▇▇因为：这个值是类型的一部分。比如是数组的‘维度’。</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src1.cpp"/>
+  </compounddef>
+</doxygen>

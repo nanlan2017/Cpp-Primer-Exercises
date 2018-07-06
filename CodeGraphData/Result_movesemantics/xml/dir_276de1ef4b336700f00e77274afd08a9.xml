@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_276de1ef4b336700f00e77274afd08a9" kind="dir">
+    <compoundname>C:/workspace/vs_wspace</compoundname>
+    <innerdir refid="dir_73ee1171eec6cff3fe1ca483619c1a3f">C:/workspace/vs_wspace/Cpp Primer 5th exercises</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/"/>
+  </compounddef>
+</doxygen>

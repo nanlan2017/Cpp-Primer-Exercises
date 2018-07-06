@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_tree_node" kind="class" prot="public">
+    <compoundname>TreeNode</compoundname>
+    <includes refid="ex13__28_8h" local="no">ex13_28.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tree_node_1a55f9d9861056d3bcfe14fe0272a771c2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TreeNode::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="68" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_tree_node_1a4f4caf6c32f232425164a75e638934eb" compoundref="ex13__28_8h" startline="54" endline="63">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tree_node_1a20c00279890e6159c289f28a261f16be" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TreeNode::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="69" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="69" bodyend="-1"/>
+        <referencedby refid="class_tree_node_1a4f4caf6c32f232425164a75e638934eb" compoundref="ex13__28_8h" startline="54" endline="63">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tree_node_1aa510b883742959d72496ffcd6a2cbbac" prot="private" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="class_tree_node" kindref="compound">TreeNode</ref> &gt;</type>
+        <definition>shared_ptr&lt;TreeNode&gt; TreeNode::_left</definition>
+        <argsstring></argsstring>
+        <name>_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="70" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_tree_node_1a4f4caf6c32f232425164a75e638934eb" compoundref="ex13__28_8h" startline="54" endline="63">operator=</referencedby>
+        <referencedby refid="class_tree_node_1afdc9a6301049b572177c8189981c669e" compoundref="ex13__28_8h" startline="46" endline="52">TreeNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_tree_node_1adea6a78872ae17e5bdf08415fbb998a6" prot="private" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="class_tree_node" kindref="compound">TreeNode</ref> &gt;</type>
+        <definition>shared_ptr&lt;TreeNode&gt; TreeNode::_right</definition>
+        <argsstring></argsstring>
+        <name>_right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="71" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_tree_node_1a4f4caf6c32f232425164a75e638934eb" compoundref="ex13__28_8h" startline="54" endline="63">operator=</referencedby>
+        <referencedby refid="class_tree_node_1afdc9a6301049b572177c8189981c669e" compoundref="ex13__28_8h" startline="46" endline="52">TreeNode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tree_node_1a984a98d5ccf7ef1f5a18094c6821f35d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TreeNode::TreeNode</definition>
+        <argsstring>()</argsstring>
+        <name>TreeNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="40" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_node_1afdc9a6301049b572177c8189981c669e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TreeNode::TreeNode</definition>
+        <argsstring>(const TreeNode &amp;rhs)</argsstring>
+        <name>TreeNode</name>
+        <param>
+          <type>const <ref refid="class_tree_node" kindref="compound">TreeNode</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="46" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="46" bodyend="52"/>
+        <references refid="class_tree_node_1aa510b883742959d72496ffcd6a2cbbac" compoundref="ex13__28_8h" startline="70">_left</references>
+        <references refid="class_tree_node_1adea6a78872ae17e5bdf08415fbb998a6" compoundref="ex13__28_8h" startline="71">_right</references>
+      </memberdef>
+      <memberdef kind="function" id="class_tree_node_1a4f4caf6c32f232425164a75e638934eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tree_node" kindref="compound">TreeNode</ref> &amp;</type>
+        <definition>TreeNode&amp; TreeNode::operator=</definition>
+        <argsstring>(const TreeNode &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_tree_node" kindref="compound">TreeNode</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="54" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="54" bodyend="63"/>
+        <references refid="class_tree_node_1aa510b883742959d72496ffcd6a2cbbac" compoundref="ex13__28_8h" startline="70">_left</references>
+        <references refid="class_tree_node_1adea6a78872ae17e5bdf08415fbb998a6" compoundref="ex13__28_8h" startline="71">_right</references>
+        <references refid="class_tree_node_1a20c00279890e6159c289f28a261f16be" compoundref="ex13__28_8h" startline="69">count</references>
+        <references refid="class_tree_node_1a55f9d9861056d3bcfe14fe0272a771c2" compoundref="ex13__28_8h" startline="68">value</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="57">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="55">
+        <label>TreeNode</label>
+        <link refid="class_tree_node"/>
+        <childnode refid="56" relation="usage">
+          <edgelabel>value</edgelabel>
+        </childnode>
+      </node>
+      <node id="56">
+        <label>std::string</label>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="39" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="39" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_tree_node_1aa510b883742959d72496ffcd6a2cbbac" prot="private" virt="non-virtual"><scope>TreeNode</scope><name>_left</name></member>
+      <member refid="class_tree_node_1adea6a78872ae17e5bdf08415fbb998a6" prot="private" virt="non-virtual"><scope>TreeNode</scope><name>_right</name></member>
+      <member refid="class_tree_node_1a20c00279890e6159c289f28a261f16be" prot="private" virt="non-virtual"><scope>TreeNode</scope><name>count</name></member>
+      <member refid="class_tree_node_1a4f4caf6c32f232425164a75e638934eb" prot="private" virt="non-virtual"><scope>TreeNode</scope><name>operator=</name></member>
+      <member refid="class_tree_node_1a984a98d5ccf7ef1f5a18094c6821f35d" prot="private" virt="non-virtual"><scope>TreeNode</scope><name>TreeNode</name></member>
+      <member refid="class_tree_node_1afdc9a6301049b572177c8189981c669e" prot="private" virt="non-virtual"><scope>TreeNode</scope><name>TreeNode</name></member>
+      <member refid="class_tree_node_1a55f9d9861056d3bcfe14fe0272a771c2" prot="private" virt="non-virtual"><scope>TreeNode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

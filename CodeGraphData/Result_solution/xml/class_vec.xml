@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_vec" kind="class" prot="public">
+    <compoundname>Vec</compoundname>
+    <includes refid="vec_8h" local="no">vec.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_vec_1a9c6c23d4331daa1673337f4836a4f534" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Vec&lt; T &gt;::element</definition>
+        <argsstring></argsstring>
+        <name>element</name>
+        <briefdescription>
+<para>data members </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="44" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_vec_1ac67d373fa026439d2df28902ffd681f1" compoundref="vec_8h" startline="34" endline="34">Vec&lt; T &gt;::begin</referencedby>
+        <referencedby refid="class_vec_1a1724258120555faeeac0476f9a7c011b" compoundref="vec_8h" startline="32" endline="32">Vec&lt; T &gt;::capacity</referencedby>
+        <referencedby refid="class_vec_1a8a4ebd44bae84a6138f76c93f3e7165d" compoundref="vec_8h" startline="31" endline="31">Vec&lt; T &gt;::size</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_vec_1a3a8d5ca9db6205da007dfdfaed744e60" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Vec&lt; T &gt;::first_free</definition>
+        <argsstring></argsstring>
+        <name>first_free</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="45" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_vec_1ab129e71489f030cce720d2c088c0440b" compoundref="vec_8h" startline="35" endline="35">Vec&lt; T &gt;::end</referencedby>
+        <referencedby refid="class_vec_1a8a4ebd44bae84a6138f76c93f3e7165d" compoundref="vec_8h" startline="31" endline="31">Vec&lt; T &gt;::size</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_vec_1a8651bd0724e40f5dd24820e024c2e014" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Vec&lt; T &gt;::cap</definition>
+        <argsstring></argsstring>
+        <name>cap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="46" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_vec_1a1724258120555faeeac0476f9a7c011b" compoundref="vec_8h" startline="32" endline="32">Vec&lt; T &gt;::capacity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_vec_1a5c11e966359cd8692e8a3ea92239469e" prot="private" static="no" mutable="no">
+        <type>std::allocator&lt; T &gt;</type>
+        <definition>std::allocator&lt;T&gt; Vec&lt; T &gt;::alloc</definition>
+        <argsstring></argsstring>
+        <name>alloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="48" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vec_1a205bf548b98a3f6a2032854091f60ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Vec&lt; T &gt;::Vec</definition>
+        <argsstring>()</argsstring>
+        <name>Vec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="20" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1aba2eb81747a48ac2c28b4141bba13519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec&lt; T &gt;::Vec</definition>
+        <argsstring>(std::initializer_list&lt; T &gt; l)</argsstring>
+        <name>Vec</name>
+        <param>
+          <type>std::initializer_list&lt; T &gt;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>constructor that takes initializer_list&lt;T&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>allocate memory as large as l.size()</para><para>copy elements from l to the address allocated</para><para>build data structure </para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="21" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="78" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a90bf23efb6803d9169953dc4d1b56279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec&lt; T &gt;::Vec</definition>
+        <argsstring>(const Vec &amp;v)</argsstring>
+        <name>Vec</name>
+        <param>
+          <type>const <ref refid="class_vec" kindref="compound">Vec</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>copy constructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>newData is a pair of pointers pointing to newly allocated and copied from range : [b, e)</para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="22" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="63" bodyend="73"/>
+        <references refid="class_vec_1ac67d373fa026439d2df28902ffd681f1" compoundref="vec_8h" startline="34" endline="34">Vec&lt; T &gt;::begin</references>
+        <references refid="class_vec_1ab129e71489f030cce720d2c088c0440b" compoundref="vec_8h" startline="35" endline="35">Vec&lt; T &gt;::end</references>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a6eac55a6199de36a8afa576d356d1583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_vec" kindref="compound">Vec</ref> &amp;</type>
+        <definition>Vec&lt; T &gt; &amp; Vec&lt; T &gt;::operator=</definition>
+        <argsstring>(const Vec &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_vec" kindref="compound">Vec</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>operator = </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>allocate and copy first to protect against self_assignment</para><para>destroy and deallocate</para><para>update data structure </para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="24" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="96" bodyend="109"/>
+        <references refid="class_vec_1ac67d373fa026439d2df28902ffd681f1" compoundref="vec_8h" startline="34" endline="34">Vec&lt; T &gt;::begin</references>
+        <references refid="class_vec_1ab129e71489f030cce720d2c088c0440b" compoundref="vec_8h" startline="35" endline="35">Vec&lt; T &gt;::end</references>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a740e7792aa68d642e608c4d9aa9043c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec&lt; T &gt;::~Vec</definition>
+        <argsstring>()</argsstring>
+        <name>~Vec</name>
+        <briefdescription>
+<para>destructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="26" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="114" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a3eca41d5ac2286fa53786b60da27c6f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vec&lt; T &gt;::push_back</definition>
+        <argsstring>(const T &amp;t)</argsstring>
+        <name>push_back</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>memmbers </para>        </briefdescription>
+        <detaileddescription>
+<para>allocate new memeory if nessary and push back the new T</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new T </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="29" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="126" bodyend="130"/>
+        <referencedby refid="vec__main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="vec__main_8cpp" startline="17" endline="35">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a8a4ebd44bae84a6138f76c93f3e7165d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Vec&lt; T &gt;::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="31" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="31" bodyend="31"/>
+        <references refid="class_vec_1a9c6c23d4331daa1673337f4836a4f534" compoundref="vec_8h" startline="44">Vec&lt; T &gt;::element</references>
+        <references refid="class_vec_1a3a8d5ca9db6205da007dfdfaed744e60" compoundref="vec_8h" startline="45">Vec&lt; T &gt;::first_free</references>
+        <referencedby refid="class_vec_1af1f8251cbc9a16975c4a32221b7c7ddc" compoundref="vec_8h" startline="52" endline="52">Vec&lt; T &gt;::chk_n_alloc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a1724258120555faeeac0476f9a7c011b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Vec&lt; T &gt;::capacity</definition>
+        <argsstring>() const </argsstring>
+        <name>capacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="32" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="32" bodyend="32"/>
+        <references refid="class_vec_1a8651bd0724e40f5dd24820e024c2e014" compoundref="vec_8h" startline="46">Vec&lt; T &gt;::cap</references>
+        <references refid="class_vec_1a9c6c23d4331daa1673337f4836a4f534" compoundref="vec_8h" startline="44">Vec&lt; T &gt;::element</references>
+        <referencedby refid="class_vec_1af1f8251cbc9a16975c4a32221b7c7ddc" compoundref="vec_8h" startline="52" endline="52">Vec&lt; T &gt;::chk_n_alloc</referencedby>
+        <referencedby refid="vec__main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="vec__main_8cpp" startline="17" endline="35">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1ac67d373fa026439d2df28902ffd681f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* Vec&lt; T &gt;::begin</definition>
+        <argsstring>() const </argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="34" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="34" bodyend="34"/>
+        <references refid="class_vec_1a9c6c23d4331daa1673337f4836a4f534" compoundref="vec_8h" startline="44">Vec&lt; T &gt;::element</references>
+        <referencedby refid="class_vec_1a6eac55a6199de36a8afa576d356d1583" compoundref="vec_8h" startline="96" endline="109">Vec&lt; T &gt;::operator=</referencedby>
+        <referencedby refid="class_vec_1a90bf23efb6803d9169953dc4d1b56279" compoundref="vec_8h" startline="63" endline="73">Vec&lt; T &gt;::Vec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1ab129e71489f030cce720d2c088c0440b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* Vec&lt; T &gt;::end</definition>
+        <argsstring>() const </argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="35" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="35" bodyend="35"/>
+        <references refid="class_vec_1a3a8d5ca9db6205da007dfdfaed744e60" compoundref="vec_8h" startline="45">Vec&lt; T &gt;::first_free</references>
+        <referencedby refid="class_vec_1a6eac55a6199de36a8afa576d356d1583" compoundref="vec_8h" startline="96" endline="109">Vec&lt; T &gt;::operator=</referencedby>
+        <referencedby refid="class_vec_1a90bf23efb6803d9169953dc4d1b56279" compoundref="vec_8h" startline="63" endline="73">Vec&lt; T &gt;::Vec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a234b1b894959c986bbf551e4879e853c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vec&lt; T &gt;::reserve</definition>
+        <argsstring>(std::size_t n)</argsstring>
+        <name>reserve</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>preallocate enough memory for specified number of elements </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of elements required </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>if n too small, just return without doing anything</para><para>allocate new memory and move data from old address to the new one </para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="37" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="139" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a590d1d66fb1fbda3d656bdc50ebad63a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vec&lt; T &gt;::resize</definition>
+        <argsstring>(std::size_t n)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Resizes to the specified number of elements. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of elements the vector should contain.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+This function will resize it to the specified number of elements. If the number is smaller than the current size it is truncated, otherwise default constructed elements are appended. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="39" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="159" bodyend="162"/>
+        <referencedby refid="vec__main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="vec__main_8cpp" startline="17" endline="35">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1ab93b743eb4b662b188ccea663a7af36b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vec&lt; T &gt;::resize</definition>
+        <argsstring>(std::size_t n, const T &amp;t)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Resizes it to the specified number of elements. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>__new_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of elements it should contain. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>__x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data with which new elements should be populated.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+This function will resize it to the specified number of elements. If the number is smaller than the current size the it is truncated, otherwise the it is extended and new elements are populated with given data. </para>        </detaileddescription>
+        <inbodydescription>
+<para>destroy the range [element+n, first_free) using destructor</para><para>update first_free to point to the new address </para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="40" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="178" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_vec_1a519ef9cff69b99ed2e944d0462eab451" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vec&lt; T &gt;::reallocate</definition>
+        <argsstring>()</argsstring>
+        <name>reallocate</name>
+        <briefdescription>
+<para>utillities </para>        </briefdescription>
+        <detaileddescription>
+<para>Double the capacity and using std::move move the original data to the newly allocated memory. </para>        </detaileddescription>
+        <inbodydescription>
+<para>calculate the new capacity required</para><para>allocate and move old data to the new space </para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="51" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="267" bodyend="274"/>
+        <referencedby refid="class_vec_1af1f8251cbc9a16975c4a32221b7c7ddc" compoundref="vec_8h" startline="52" endline="52">Vec&lt; T &gt;::chk_n_alloc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1af1f8251cbc9a16975c4a32221b7c7ddc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vec&lt; T &gt;::chk_n_alloc</definition>
+        <argsstring>()</argsstring>
+        <name>chk_n_alloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="52" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="52" bodyend="52"/>
+        <references refid="class_vec_1a1724258120555faeeac0476f9a7c011b" compoundref="vec_8h" startline="32" endline="32">Vec&lt; T &gt;::capacity</references>
+        <references refid="class_vec_1a519ef9cff69b99ed2e944d0462eab451" compoundref="vec_8h" startline="267" endline="274">Vec&lt; T &gt;::reallocate</references>
+        <references refid="class_vec_1a8a4ebd44bae84a6138f76c93f3e7165d" compoundref="vec_8h" startline="31" endline="31">Vec&lt; T &gt;::size</references>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a280adca83032b79f1cfb2d854fec40ba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vec&lt; T &gt;::free</definition>
+        <argsstring>()</argsstring>
+        <name>free</name>
+        <briefdescription>
+<para>destroy the elements and deallocate the space previously allocated. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>if not nullptr</para><para>destroy it in reverse order. </para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="53" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="220" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a376720a1d11842b75c780779f786a2b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vec&lt; T &gt;::wy_alloc_n_move</definition>
+        <argsstring>(std::size_t n)</argsstring>
+        <name>wy_alloc_n_move</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>allocate memory for spicified number of elements </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>it&apos;s user&apos;s responsibility to ensure that </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is greater than the current capacity. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>allocate as required.</para><para>move the data from old place to the new one</para><para>update data structure </para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="55" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="241" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vec_1a11cb72ab9351bce7b33282d9929c684d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; T *, T * &gt;</type>
+        <definition>std::pair&lt; T *, T * &gt; Vec&lt; T &gt;::alloc_n_copy</definition>
+        <argsstring>(T *b, T *e)</argsstring>
+        <name>alloc_n_copy</name>
+        <param>
+          <type>T *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>allocate new space for the given range and copy them into it </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>a pair of pointers pointing to [first element , one past the last) in the new space </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>calculate the size needed and allocate space accordingly <verbatim>       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</verbatim> which copies the range[first,last) to the space to which the starting address data is pointing. This function returns a pointer to one past the last element </para>        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="57" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="204" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a vector like class </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" line="18" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/vec.h" bodystart="17" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_vec_1a5c11e966359cd8692e8a3ea92239469e" prot="private" virt="non-virtual"><scope>Vec</scope><name>alloc</name></member>
+      <member refid="class_vec_1a11cb72ab9351bce7b33282d9929c684d" prot="private" virt="non-virtual"><scope>Vec</scope><name>alloc_n_copy</name></member>
+      <member refid="class_vec_1ac67d373fa026439d2df28902ffd681f1" prot="public" virt="non-virtual"><scope>Vec</scope><name>begin</name></member>
+      <member refid="class_vec_1a8651bd0724e40f5dd24820e024c2e014" prot="private" virt="non-virtual"><scope>Vec</scope><name>cap</name></member>
+      <member refid="class_vec_1a1724258120555faeeac0476f9a7c011b" prot="public" virt="non-virtual"><scope>Vec</scope><name>capacity</name></member>
+      <member refid="class_vec_1af1f8251cbc9a16975c4a32221b7c7ddc" prot="private" virt="non-virtual"><scope>Vec</scope><name>chk_n_alloc</name></member>
+      <member refid="class_vec_1a9c6c23d4331daa1673337f4836a4f534" prot="private" virt="non-virtual"><scope>Vec</scope><name>element</name></member>
+      <member refid="class_vec_1ab129e71489f030cce720d2c088c0440b" prot="public" virt="non-virtual"><scope>Vec</scope><name>end</name></member>
+      <member refid="class_vec_1a3a8d5ca9db6205da007dfdfaed744e60" prot="private" virt="non-virtual"><scope>Vec</scope><name>first_free</name></member>
+      <member refid="class_vec_1a280adca83032b79f1cfb2d854fec40ba" prot="private" virt="non-virtual"><scope>Vec</scope><name>free</name></member>
+      <member refid="class_vec_1a6eac55a6199de36a8afa576d356d1583" prot="public" virt="non-virtual"><scope>Vec</scope><name>operator=</name></member>
+      <member refid="class_vec_1a3eca41d5ac2286fa53786b60da27c6f1" prot="public" virt="non-virtual"><scope>Vec</scope><name>push_back</name></member>
+      <member refid="class_vec_1a519ef9cff69b99ed2e944d0462eab451" prot="private" virt="non-virtual"><scope>Vec</scope><name>reallocate</name></member>
+      <member refid="class_vec_1a234b1b894959c986bbf551e4879e853c" prot="public" virt="non-virtual"><scope>Vec</scope><name>reserve</name></member>
+      <member refid="class_vec_1a590d1d66fb1fbda3d656bdc50ebad63a" prot="public" virt="non-virtual"><scope>Vec</scope><name>resize</name></member>
+      <member refid="class_vec_1ab93b743eb4b662b188ccea663a7af36b" prot="public" virt="non-virtual"><scope>Vec</scope><name>resize</name></member>
+      <member refid="class_vec_1a8a4ebd44bae84a6138f76c93f3e7165d" prot="public" virt="non-virtual"><scope>Vec</scope><name>size</name></member>
+      <member refid="class_vec_1a205bf548b98a3f6a2032854091f60ef8" prot="public" virt="non-virtual"><scope>Vec</scope><name>Vec</name></member>
+      <member refid="class_vec_1aba2eb81747a48ac2c28b4141bba13519" prot="public" virt="non-virtual"><scope>Vec</scope><name>Vec</name></member>
+      <member refid="class_vec_1a90bf23efb6803d9169953dc4d1b56279" prot="public" virt="non-virtual"><scope>Vec</scope><name>Vec</name></member>
+      <member refid="class_vec_1a376720a1d11842b75c780779f786a2b5" prot="private" virt="non-virtual"><scope>Vec</scope><name>wy_alloc_n_move</name></member>
+      <member refid="class_vec_1a740e7792aa68d642e608c4d9aa9043c2" prot="public" virt="non-virtual"><scope>Vec</scope><name>~Vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

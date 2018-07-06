@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_message" kind="class" prot="public">
+    <compoundname>Message</compoundname>
+    <includes refid="msg__folder_8h" local="no">msg_folder.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_message_1ae76b55231c78a6819eff3b98d4684dd8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Message::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="51" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_message_1a67a5e5871f649e65d4fa51fcdb925521" compoundref="msg__folder_8h" startline="27" endline="36">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_message_1adda8db160c0f2fca4dd4ecee8409d315" prot="public" static="no" mutable="no">
+        <type>set&lt; <ref refid="class_folder" kindref="compound">Folder</ref> * &gt;</type>
+        <definition>set&lt;Folder*&gt; Message::folderSet</definition>
+        <argsstring></argsstring>
+        <name>folderSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="52" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_message_1a67a5e5871f649e65d4fa51fcdb925521" compoundref="msg__folder_8h" startline="27" endline="36">operator=</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_message_1aa346edc12576fc22b827a58289c2e93e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Message::Message</definition>
+        <argsstring>(const string &amp;s=&quot;&quot;)</argsstring>
+        <name>Message</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>s</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="14" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_message_1a8f107e71cce0fb5e9cdf0cf791551b11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Message::Message</definition>
+        <argsstring>(const Message &amp;rhs)</argsstring>
+        <name>Message</name>
+        <param>
+          <type>const <ref refid="class_message" kindref="compound">Message</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="20" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_message_1a67a5e5871f649e65d4fa51fcdb925521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_message" kindref="compound">Message</ref> &amp;</type>
+        <definition>Message&amp; Message::operator=</definition>
+        <argsstring>(const Message &amp;rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_message" kindref="compound">Message</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="27" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="27" bodyend="36"/>
+        <references refid="class_message_1ae76b55231c78a6819eff3b98d4684dd8" compoundref="msg__folder_8h" startline="51">content</references>
+        <references refid="class_message_1adda8db160c0f2fca4dd4ecee8409d315" compoundref="msg__folder_8h" startline="52">folderSet</references>
+      </memberdef>
+      <memberdef kind="function" id="class_message_1ad612c270a849f2725d6b8742fc4933f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Message::save</definition>
+        <argsstring>(Folder &amp;folder)</argsstring>
+        <name>save</name>
+        <param>
+          <type><ref refid="class_folder" kindref="compound">Folder</ref> &amp;</type>
+          <declname>folder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="38" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="78" bodyend="82"/>
+        <references refid="class_folder_1ae7042be2996112460a6f07bfd5a0f4c9" compoundref="msg__folder_8h" startline="64" endline="67">Folder::addMsg</references>
+      </memberdef>
+      <memberdef kind="function" id="class_message_1a658559c3eafdc608dc3565994a5d0bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Message::remove</definition>
+        <argsstring>(Folder &amp;folder)</argsstring>
+        <name>remove</name>
+        <param>
+          <type><ref refid="class_folder" kindref="compound">Folder</ref> &amp;</type>
+          <declname>folder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="39" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="84" bodyend="88"/>
+        <references refid="class_folder_1a8456be34409a5fb03be579a3d5549154" compoundref="msg__folder_8h" startline="69" endline="72">Folder::removeMsg</references>
+      </memberdef>
+      <memberdef kind="function" id="class_message_1aa3f03bbc017ab5594b0d83e1b3788233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Message::add2</definition>
+        <argsstring>(set&lt; Folder * &gt; &amp;folderSet)</argsstring>
+        <name>add2</name>
+        <param>
+          <type>set&lt; <ref refid="class_folder" kindref="compound">Folder</ref> * &gt; &amp;</type>
+          <declname>folderSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="41" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_message_1a266a5ddb31dd96b222f9a12dac5304ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Message::remove2</definition>
+        <argsstring>(set&lt; Folder * &gt; &amp;folderSet)</argsstring>
+        <name>remove2</name>
+        <param>
+          <type>set&lt; <ref refid="class_folder" kindref="compound">Folder</ref> * &gt; &amp;</type>
+          <declname>folderSet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="43" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_message_1a3f7275462831f787a861271687bcad67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Message::~Message</definition>
+        <argsstring>()</argsstring>
+        <name>~Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="45" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="28">
+        <label>std::set&lt; Message * &gt;</label>
+        <childnode refid="23" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>std::set&lt; Folder * &gt;</label>
+        <childnode refid="27" relation="usage">
+          <edgelabel>keys</edgelabel>
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Message</label>
+        <link refid="class_message"/>
+        <childnode refid="24" relation="usage">
+          <edgelabel>content</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>folderSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="27">
+        <label>Folder</label>
+        <link refid="class_folder"/>
+        <childnode refid="28" relation="usage">
+          <edgelabel>msgSet</edgelabel>
+        </childnode>
+      </node>
+      <node id="24">
+        <label>std::string</label>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" line="11" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder/msg_folder.h" bodystart="10" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_message_1aa3f03bbc017ab5594b0d83e1b3788233" prot="public" virt="non-virtual"><scope>Message</scope><name>add2</name></member>
+      <member refid="class_message_1ae76b55231c78a6819eff3b98d4684dd8" prot="public" virt="non-virtual"><scope>Message</scope><name>content</name></member>
+      <member refid="class_message_1adda8db160c0f2fca4dd4ecee8409d315" prot="public" virt="non-virtual"><scope>Message</scope><name>folderSet</name></member>
+      <member refid="class_message_1aa346edc12576fc22b827a58289c2e93e" prot="public" virt="non-virtual"><scope>Message</scope><name>Message</name></member>
+      <member refid="class_message_1a8f107e71cce0fb5e9cdf0cf791551b11" prot="public" virt="non-virtual"><scope>Message</scope><name>Message</name></member>
+      <member refid="class_message_1a67a5e5871f649e65d4fa51fcdb925521" prot="public" virt="non-virtual"><scope>Message</scope><name>operator=</name></member>
+      <member refid="class_message_1a658559c3eafdc608dc3565994a5d0bd7" prot="public" virt="non-virtual"><scope>Message</scope><name>remove</name></member>
+      <member refid="class_message_1a266a5ddb31dd96b222f9a12dac5304ae" prot="public" virt="non-virtual"><scope>Message</scope><name>remove2</name></member>
+      <member refid="class_message_1ad612c270a849f2725d6b8742fc4933f3" prot="public" virt="non-virtual"><scope>Message</scope><name>save</name></member>
+      <member refid="class_message_1a3f7275462831f787a861271687bcad67" prot="public" virt="non-virtual"><scope>Message</scope><name>~Message</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

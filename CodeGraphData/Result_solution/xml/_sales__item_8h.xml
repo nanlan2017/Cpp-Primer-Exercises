@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_sales__item_8h" kind="file">
+    <compoundname>Sales_item.h</compoundname>
+    <includes refid="common__tools_8h" local="yes">common_tools.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="___main___8cpp" local="yes">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/_Main_.cpp</includedby>
+    <incdepgraph>
+      <node id="144">
+        <label>common_tools.h</label>
+        <link refid="common__tools_8h"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>string</label>
+      </node>
+      <node id="143">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h</label>
+        <link refid="Sales_item.h"/>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>vector</label>
+      </node>
+      <node id="145">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="148">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h</label>
+        <link refid="Sales_item.h"/>
+        <childnode refid="149" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/_Main_.cpp</label>
+        <link refid="___main___8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_sales__item" prot="public">Sales_item</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_sales__item_8h_1ac07d2b2a058d92024f0be7b148130200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>istream &amp;</type>
+        <definition>istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;cin, Sales_item &amp;book)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>cin</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+          <declname>book</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="38" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="38" bodyend="43"/>
+        <references refid="class_sales__item_1ac2ebe4fd22d6838ef282563a31cc1b99" compoundref="_sales__item_8h" startline="33">Sales_item::amount</references>
+        <references refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" compoundref="_sales__item_8h" startline="31">Sales_item::isbn</references>
+        <references refid="class_sales__item_1a3a867addcfcb2fb9e6805e1a670c9241" compoundref="_sales__item_8h" startline="32">Sales_item::price</references>
+      </memberdef>
+      <memberdef kind="function" id="_sales__item_8h_1a45ad216f9cead7ee099588572d9ba4c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;cout, const Sales_item &amp;book)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>cout</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_sales__item" kindref="compound">Sales_item</ref> &amp;</type>
+          <declname>book</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="46" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="_sales__item_8h_1a4f455c62127cc8697085f2c09d8eb860" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void usecase_Sales_item</definition>
+        <argsstring>()</argsstring>
+        <name>usecase_Sales_item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" line="53" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h" bodystart="53" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_SALES_ITEM_H_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_SALES_ITEM_H_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common__tools_8h" kindref="compound">common_tools.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_sales__item" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_sales__item" kindref="compound">Sales_item</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_sales__item_1a22888bd24b6c1befb13e49f6cc08f5fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>operator<sp/>=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>rhs)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*(<ref refid="class_sales__item" kindref="compound">Sales_item</ref>*)0;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_sales__item_1a195f131ec8fbe70b725824590fe2adf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>operator<sp/>+=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>rhs)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*(<ref refid="class_sales__item" kindref="compound">Sales_item</ref>*)0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref><sp/>operator<sp/>+(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>lhs,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>rhs);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>istream&amp;<sp/><sp/><ref refid="_sales__item_8h_1ac07d2b2a058d92024f0be7b148130200" kindref="member">operator &gt;&gt; </ref>(istream&amp;<sp/>cin,<sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>book);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>ostream&amp;<sp/><ref refid="_sales__item_8h_1a45ad216f9cead7ee099588572d9ba4c4" kindref="member">operator &lt;&lt;</ref>(ostream&amp;<sp/>cout,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>book);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31" refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" kindref="member">isbn</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>书ISBN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_sales__item_1a3a867addcfcb2fb9e6805e1a670c9241" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_sales__item_1a3a867addcfcb2fb9e6805e1a670c9241" kindref="member">price</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>单价</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_sales__item_1ac2ebe4fd22d6838ef282563a31cc1b99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_sales__item_1ac2ebe4fd22d6838ef282563a31cc1b99" kindref="member">amount</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>数量</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_sales__item_1aefc851603fd8e8a8d04ab5fa94cfbe08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_sales__item_1aefc851603fd8e8a8d04ab5fa94cfbe08" kindref="member">money</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>总价</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="38" refid="_sales__item_8h_1ac07d2b2a058d92024f0be7b148130200" refkind="member"><highlight class="normal">istream&amp;<sp/><sp/><ref refid="_sales__item_8h_1ac07d2b2a058d92024f0be7b148130200" kindref="member">operator &gt;&gt;</ref>(istream&amp;<sp/>cin,<sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>book)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>book.<ref refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" kindref="member">isbn</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>book.<ref refid="class_sales__item_1a3a867addcfcb2fb9e6805e1a670c9241" kindref="member">price</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>book.<ref refid="class_sales__item_1ac2ebe4fd22d6838ef282563a31cc1b99" kindref="member">amount</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cin;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="_sales__item_8h_1a45ad216f9cead7ee099588572d9ba4c4" refkind="member"><highlight class="normal">ostream&amp;<sp/><ref refid="_sales__item_8h_1a45ad216f9cead7ee099588572d9ba4c4" kindref="member">operator&lt;&lt;</ref>(ostream&amp;<sp/>cout,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>&amp;<sp/>book)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*(ostream*)0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/*=========================================================================*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="_sales__item_8h_1a4f455c62127cc8697085f2c09d8eb860" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_sales__item_8h_1a4f455c62127cc8697085f2c09d8eb860" kindref="member">usecase_Sales_item</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref><sp/>book;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>cin<sp/>&gt;&gt;<sp/>book;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cout<sp/>&lt;&lt;<sp/>book<sp/>&lt;&lt;<sp/>endl();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_SALES_ITEM_H_</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/Sales_item.h"/>
+  </compounddef>
+</doxygen>

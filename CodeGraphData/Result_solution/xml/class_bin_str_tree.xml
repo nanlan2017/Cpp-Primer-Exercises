@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bin_str_tree" kind="class" prot="public">
+    <compoundname>BinStrTree</compoundname>
+    <includes refid="ex13__28_8h" local="no">ex13_28.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_bin_str_tree_1a6ae1fa2b58bf76d829b5f51a00bc6598" prot="private" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="class_tree_node" kindref="compound">TreeNode</ref> &gt;</type>
+        <definition>shared_ptr&lt;TreeNode&gt; BinStrTree::_root</definition>
+        <argsstring></argsstring>
+        <name>_root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="78" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bin_str_tree_1a51f1e629e9c0d83518e8e3609690b759" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BinStrTree::BinStrTree</definition>
+        <argsstring>()</argsstring>
+        <name>BinStrTree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="75" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="75" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" line="74" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control/ex13_28.h" bodystart="74" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_bin_str_tree_1a6ae1fa2b58bf76d829b5f51a00bc6598" prot="private" virt="non-virtual"><scope>BinStrTree</scope><name>_root</name></member>
+      <member refid="class_bin_str_tree_1a51f1e629e9c0d83518e8e3609690b759" prot="private" virt="non-virtual"><scope>BinStrTree</scope><name>BinStrTree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="test__tools_8h" kind="file">
+    <compoundname>test_tools.h</compoundname>
+    <includedby refid="common__tools_8cpp" local="yes">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.cpp</includedby>
+    <includedby refid="test__tools_8cpp" local="yes">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.cpp</includedby>
+    <invincdepgraph>
+      <node id="156">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.h</label>
+        <link refid="test_tools.h"/>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.cpp</label>
+        <link refid="test__tools_8cpp"/>
+      </node>
+      <node id="157">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.cpp</label>
+        <link refid="common__tools_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classwjh_1_1_dog" prot="public">wjh::Dog</innerclass>
+    <innernamespace refid="namespacewjh">wjh</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_WJH_test_</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_WJH_test_</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">wjh<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classwjh_1_1_dog" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classwjh_1_1_dog" kindref="compound">Dog</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classwjh_1_1_dog_1a915df53b0b90d0a6b06763bdab410e9b" kindref="member">Dog</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classwjh_1_1_dog_1a2903c52b1b896f3bff31df0ff998454d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classwjh_1_1_dog_1a2903c52b1b896f3bff31df0ff998454d" kindref="member">age</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="classwjh_1_1_dog" kindref="compound">Dog</ref>&amp;<sp/><ref refid="namespacewjh_1af2c507f1aa80fa586632c9d9de5d7e8d" kindref="member">backDog</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_WJH_test_</highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.h"/>
+  </compounddef>
+</doxygen>

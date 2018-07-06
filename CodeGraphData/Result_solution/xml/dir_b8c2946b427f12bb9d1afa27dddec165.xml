@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b8c2946b427f12bb9d1afa27dddec165" kind="dir">
+    <compoundname>C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery</compoundname>
+    <innerfile refid="text__query_8cpp">text_query.cpp</innerfile>
+    <innerfile refid="text__query_8h">text_query.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/"/>
+  </compounddef>
+</doxygen>

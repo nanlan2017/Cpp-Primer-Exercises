@@ -2,6 +2,9 @@
 using namespace std;
 
 /*******************************************************
+//x 付
+//? 为什么
+
 //TODO move:把一个左值强制转为右值：让其‘没用’、变可接管——> 以适配rvalue形参的移动构造/移动赋值
 //TODO 有时你那个instance并不是真的要‘没用’了，你move()一下废掉它。
 
@@ -148,8 +151,40 @@ void main2()
 	Moveable a(getTemp2()); // 
 }
 
-int main(int argc, char* argv[]) {
+int main3(int argc, char* argv[]) {
 	main2();
+
+	typedef const int T;
+	typedef T& TR;
+	TR& v = 1;
+
+	return 0;
+}
+
+
+template <typename T>
+void forwardValue(T& val) // lvalue reference:只接受左值
+{
+	__processValue(val); //右值参数会变成左值
+}
+
+template <typename T>
+void __processValue(T&& val) // universal reference: 可接受左值/右值
+{
+}
+
+int main()
+{
+	int&& t = 1; // t引用了一个右值。  t是一个左值。
+	forwardValue(t);
+	int k = 1;	// k是一个左值
+	forwardValue(k);
+	forwardValue(1); // 
+
+	int i = 1;
+	__processValue(i);
+	__processValue(1);
+	return 0;
 }
 
 

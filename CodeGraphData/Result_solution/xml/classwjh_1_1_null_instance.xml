@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classwjh_1_1_null_instance" kind="class" prot="public">
+    <compoundname>wjh::NullInstance</compoundname>
+    <includes refid="common__tools_8h" local="no">common_tools.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" prot="public" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* wjh::NullInstance&lt; T &gt;::theOnly</definition>
+        <argsstring></argsstring>
+        <name>theOnly</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="62" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" bodystart="62" bodyend="-1"/>
+        <referencedby refid="classwjh_1_1_null_instance_1ac10851ebee501f013fe6174f8b12d439" compoundref="common__tools_8h" startline="50" endline="52">wjh::NullInstance&lt; T &gt;::get</referencedby>
+        <referencedby refid="classwjh_1_1_null_instance_1a78cbe11562c9634c9f6f98c79e1e839d" compoundref="common__tools_8h" startline="42" endline="47">wjh::NullInstance&lt; T &gt;::NullInstance</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwjh_1_1_null_instance_1a78cbe11562c9634c9f6f98c79e1e839d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wjh::NullInstance&lt; T &gt;::NullInstance</definition>
+        <argsstring>()</argsstring>
+        <name>NullInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="42" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" bodystart="42" bodyend="47"/>
+        <references refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" compoundref="common__tools_8h" startline="62">wjh::NullInstance&lt; T &gt;::theOnly</references>
+      </memberdef>
+      <memberdef kind="function" id="classwjh_1_1_null_instance_1ac10851ebee501f013fe6174f8b12d439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T&amp; wjh::NullInstance&lt; T &gt;::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="50" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" bodystart="50" bodyend="52"/>
+        <references refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" compoundref="common__tools_8h" startline="62">wjh::NullInstance&lt; T &gt;::theOnly</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classwjh_1_1_null_instance_1a13ccc2b44fd5b77f5659c25269303c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(T &amp;instance, NullInstance&lt; T &gt; &amp;&amp;nullobj)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type><ref refid="classwjh_1_1_null_instance" kindref="compound">NullInstance</ref>&lt; T &gt; &amp;&amp;</type>
+          <declname>nullobj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="55" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" bodystart="72" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" line="39" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.h" bodystart="39" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classwjh_1_1_null_instance_1ac10851ebee501f013fe6174f8b12d439" prot="public" virt="non-virtual"><scope>wjh::NullInstance</scope><name>get</name></member>
+      <member refid="classwjh_1_1_null_instance_1a78cbe11562c9634c9f6f98c79e1e839d" prot="public" virt="non-virtual"><scope>wjh::NullInstance</scope><name>NullInstance</name></member>
+      <member refid="classwjh_1_1_null_instance_1a13ccc2b44fd5b77f5659c25269303c45" prot="public" virt="non-virtual"><scope>wjh::NullInstance</scope><name>operator==</name></member>
+      <member refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" prot="public" virt="non-virtual"><scope>wjh::NullInstance</scope><name>theOnly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

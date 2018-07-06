@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classpointer_t" kind="class" prot="public">
+    <compoundname>pointerT</compoundname>
+    <templateparamlist>
+      <param>
+        <type>char const *</type>
+        <declname>name</declname>
+        <defname>name</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src3.cpp" line="20" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/src3.cpp" bodystart="20" bodyend="22"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

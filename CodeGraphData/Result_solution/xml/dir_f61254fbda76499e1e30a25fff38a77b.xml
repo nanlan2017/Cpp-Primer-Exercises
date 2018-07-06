@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f61254fbda76499e1e30a25fff38a77b" kind="dir">
+    <compoundname>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other</compoundname>
+    <innerfile refid="___main___8cpp">_Main_.cpp</innerfile>
+    <innerfile refid="blob_8h">blob.h</innerfile>
+    <innerfile refid="common__tools_8cpp">common_tools.cpp</innerfile>
+    <innerfile refid="common__tools_8h">common_tools.h</innerfile>
+    <innerfile refid="_sales__item_8h">Sales_item.h</innerfile>
+    <innerfile refid="test__tools_8cpp">test_tools.cpp</innerfile>
+    <innerfile refid="test__tools_8h">test_tools.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/"/>
+  </compounddef>
+</doxygen>

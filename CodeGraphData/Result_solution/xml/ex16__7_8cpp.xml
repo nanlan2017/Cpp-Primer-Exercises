@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="ex16__7_8cpp" kind="file">
+    <compoundname>ex16_7.cpp</compoundname>
+    <includes local="no">memory</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xmemory</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/exception</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/typeinfo</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xstddef</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/vcruntime_typeinfo.h</includes>
+    <includes local="no">C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/type_traits</includes>
+    <incdepgraph>
+      <node id="48">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xmemory</label>
+      </node>
+      <node id="46">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/ex16_7.cpp</label>
+        <link refid="ex16_7.cpp"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/typeinfo</label>
+      </node>
+      <node id="52">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/vcruntime_typeinfo.h</label>
+      </node>
+      <node id="53">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/type_traits</label>
+      </node>
+      <node id="51">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/xstddef</label>
+      </node>
+      <node id="49">
+        <label>C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/exception</label>
+      </node>
+      <node id="47">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ex16__7_8cpp_1a0c18a221385792b22ef23a7f1a886a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename _Ty</type>
+          </param>
+          <param>
+            <type>unsigned</type>
+            <declname>SIZE</declname>
+            <defname>SIZE</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr unsigned</type>
+        <definition>constexpr unsigned getSize</definition>
+        <argsstring>(const _Ty(&amp;array)[SIZE])</argsstring>
+        <name>getSize</name>
+        <param>
+          <type>const _Ty(&amp;)</type>
+          <declname>array</declname>
+          <array>[SIZE]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/ex16_7.cpp" line="7" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/ex16_7.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>array是一个类型为_Ty的数组的引用。（别名）</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>_Ty,</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>SIZE&gt;<sp/>constexpr<sp/></highlight></codeline>
+<codeline lineno="7" refid="ex16__7_8cpp_1a0c18a221385792b22ef23a7f1a886a54" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="ex16__7_8cpp_1a0c18a221385792b22ef23a7f1a886a54" kindref="member">getSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>_Ty(&amp;array)[SIZE])<sp/></highlight><highlight class="comment">//<sp/>这样去接受数组（实例化时就能确定数组类型、长度）</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SIZE;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template/ex16_7.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_bin_str_tree" kind="class"><name>BinStrTree</name>
+    <member refid="class_bin_str_tree_1a6ae1fa2b58bf76d829b5f51a00bc6598" kind="variable"><name>_root</name></member>
+    <member refid="class_bin_str_tree_1a51f1e629e9c0d83518e8e3609690b759" kind="function"><name>BinStrTree</name></member>
+  </compound>
+  <compound refid="classwjh_1_1_dog" kind="class"><name>wjh::Dog</name>
+    <member refid="classwjh_1_1_dog_1a2903c52b1b896f3bff31df0ff998454d" kind="variable"><name>age</name></member>
+    <member refid="classwjh_1_1_dog_1a915df53b0b90d0a6b06763bdab410e9b" kind="function"><name>Dog</name></member>
+  </compound>
+  <compound refid="class_folder" kind="class"><name>Folder</name>
+    <member refid="class_folder_1ad097ec85180250d552a9bdc3e753de59" kind="variable"><name>msgSet</name></member>
+    <member refid="class_folder_1a8af69fd19ba86816c60b4c2291311eb1" kind="function"><name>Folder</name></member>
+    <member refid="class_folder_1ae7042be2996112460a6f07bfd5a0f4c9" kind="function"><name>addMsg</name></member>
+    <member refid="class_folder_1a8456be34409a5fb03be579a3d5549154" kind="function"><name>removeMsg</name></member>
+  </compound>
+  <compound refid="class_has_ptr" kind="class"><name>HasPtr</name>
+    <member refid="class_has_ptr_1ad089eecbae9bb592f3becc3e59ed791a" kind="variable"><name>_ps</name></member>
+    <member refid="class_has_ptr_1a3eb64ee4be0b107d1606bdd0747fc0c3" kind="variable"><name>i</name></member>
+    <member refid="class_has_ptr_1aafa52ca8fb076e8131131c2f274b2bba" kind="friend"><name>swap</name></member>
+    <member refid="class_has_ptr_1a69f4be52612d84bbc9d139f7f6eefaff" kind="function"><name>HasPtr</name></member>
+    <member refid="class_has_ptr_1abb1153fca7ef2295e46d288329590ab7" kind="function"><name>HasPtr</name></member>
+    <member refid="class_has_ptr_1ad8942ee99a977691ca61a9170d7c8ba3" kind="function"><name>operator=</name></member>
+    <member refid="class_has_ptr_1a771ae083b7a3dc5ce0d8a2d100321529" kind="function"><name>operator&gt;</name></member>
+    <member refid="class_has_ptr_1a4d8c826c51665517fdca2e67493d6286" kind="function"><name>~HasPtr</name></member>
+  </compound>
+  <compound refid="class_has_ptr_mem" kind="class"><name>HasPtrMem</name>
+    <member refid="class_has_ptr_mem_1a487733d5c48f14e34c8136e28d374c51" kind="typedef"><name>Res</name></member>
+    <member refid="class_has_ptr_mem_1acd0bef98b9a4bbfaeeb8eef63f428822" kind="variable"><name>_d</name></member>
+    <member refid="class_has_ptr_mem_1a534056caaa6b3b36073c1c30faa50da6" kind="function"><name>HasPtrMem</name></member>
+    <member refid="class_has_ptr_mem_1aa0c81075e9638bf43d1daf2a832a9b96" kind="function"><name>HasPtrMem</name></member>
+    <member refid="class_has_ptr_mem_1a725ac998a02bf0069c628106557607ba" kind="function"><name>HasPtrMem</name></member>
+    <member refid="class_has_ptr_mem_1a847479da596068070a1bf4f8cca31456" kind="function"><name>operator=</name></member>
+    <member refid="class_has_ptr_mem_1a8cc088ac293d21b81ba23b6080aa2bb8" kind="function"><name>operator=</name></member>
+    <member refid="class_has_ptr_mem_1a05d2abac0ea9cf7b6a739786d921a4e3" kind="function"><name>~HasPtrMem</name></member>
+  </compound>
+  <compound refid="class_huge_mem" kind="class"><name>HugeMem</name>
+    <member refid="class_huge_mem_1ae9e7483c88e082c864d84fc1bbcd01a0" kind="variable"><name>size</name></member>
+    <member refid="class_huge_mem_1a04dbe8b6f425fca4899fe7fbc4bd3308" kind="variable"><name>_elements</name></member>
+    <member refid="class_huge_mem_1a6fa3e1fb91a4107e28ed71b3c68711b4" kind="function"><name>HugeMem</name></member>
+    <member refid="class_huge_mem_1ae2d160c26707c27cb57f65abb5881871" kind="function"><name>HugeMem</name></member>
+    <member refid="class_huge_mem_1abb6d37a3352963a5ef1cf3e466158a34" kind="function"><name>HugeMem</name></member>
+    <member refid="class_huge_mem_1ae58317dbb7632ecc596fc84b520a9ae3" kind="function"><name>~HugeMem</name></member>
+  </compound>
+  <compound refid="class_list" kind="class"><name>List</name>
+    <member refid="class_list_1a781a1e543b17e208d1716c65760fc51e" kind="variable"><name>elems</name></member>
+    <member refid="class_list_1a9025c7ff3ea20483e83ab3c0a9fd67ca" kind="function"><name>Print</name></member>
+  </compound>
+  <compound refid="class_message" kind="class"><name>Message</name>
+    <member refid="class_message_1ae76b55231c78a6819eff3b98d4684dd8" kind="variable"><name>content</name></member>
+    <member refid="class_message_1adda8db160c0f2fca4dd4ecee8409d315" kind="variable"><name>folderSet</name></member>
+    <member refid="class_message_1aa346edc12576fc22b827a58289c2e93e" kind="function"><name>Message</name></member>
+    <member refid="class_message_1a8f107e71cce0fb5e9cdf0cf791551b11" kind="function"><name>Message</name></member>
+    <member refid="class_message_1a67a5e5871f649e65d4fa51fcdb925521" kind="function"><name>operator=</name></member>
+    <member refid="class_message_1ad612c270a849f2725d6b8742fc4933f3" kind="function"><name>save</name></member>
+    <member refid="class_message_1a658559c3eafdc608dc3565994a5d0bd7" kind="function"><name>remove</name></member>
+    <member refid="class_message_1aa3f03bbc017ab5594b0d83e1b3788233" kind="function"><name>add2</name></member>
+    <member refid="class_message_1a266a5ddb31dd96b222f9a12dac5304ae" kind="function"><name>remove2</name></member>
+    <member refid="class_message_1a3f7275462831f787a861271687bcad67" kind="function"><name>~Message</name></member>
+  </compound>
+  <compound refid="class_moveable" kind="class"><name>Moveable</name>
+    <member refid="class_moveable_1a07ecb168c0603d1f6f9a5936f18af66f" kind="variable"><name>_i</name></member>
+    <member refid="class_moveable_1ace0f0bd4d63befee802e8f02bafebbfe" kind="variable"><name>res</name></member>
+    <member refid="class_moveable_1a0fa75367f721e584dd49ec4e936c9e24" kind="function"><name>Moveable</name></member>
+    <member refid="class_moveable_1af1801d5a52afa1a75ae1942c243c9dd8" kind="function"><name>Moveable</name></member>
+    <member refid="class_moveable_1a09e0592f25e24d4d73674cc4fab56d31" kind="function"><name>~Moveable</name></member>
+  </compound>
+  <compound refid="classwjh_1_1_null_instance" kind="class"><name>wjh::NullInstance</name>
+    <member refid="classwjh_1_1_null_instance_1a2ed1a64ba3f5344fa427e3b9aa49a30c" kind="variable"><name>theOnly</name></member>
+    <member refid="classwjh_1_1_null_instance_1a78cbe11562c9634c9f6f98c79e1e839d" kind="function"><name>NullInstance</name></member>
+    <member refid="classwjh_1_1_null_instance_1ac10851ebee501f013fe6174f8b12d439" kind="function"><name>get</name></member>
+    <member refid="classwjh_1_1_null_instance_1a13ccc2b44fd5b77f5659c25269303c45" kind="friend"><name>operator==</name></member>
+  </compound>
+  <compound refid="classpointer_t" kind="class"><name>pointerT</name>
+  </compound>
+  <compound refid="class_query_result" kind="class"><name>QueryResult</name>
+    <member refid="class_query_result_1a48a46d22bb59fd413a568de8a436217a" kind="typedef"><name>line_no</name></member>
+    <member refid="class_query_result_1a72092367e6779572237d2297333496f7" kind="variable"><name>word</name></member>
+    <member refid="class_query_result_1ae7e39841097b061a03fc3102b4598b52" kind="variable"><name>count</name></member>
+    <member refid="class_query_result_1af70e9b1e98d83aa1ce53c1938a47729d" kind="variable"><name>_lines</name></member>
+    <member refid="class_query_result_1ae390f6317f2cd3494d37e6b43dc4bdde" kind="variable"><name>_file</name></member>
+  </compound>
+  <compound refid="class_sales__item" kind="class"><name>Sales_item</name>
+    <member refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" kind="variable"><name>isbn</name></member>
+    <member refid="class_sales__item_1a3a867addcfcb2fb9e6805e1a670c9241" kind="variable"><name>price</name></member>
+    <member refid="class_sales__item_1ac2ebe4fd22d6838ef282563a31cc1b99" kind="variable"><name>amount</name></member>
+    <member refid="class_sales__item_1aefc851603fd8e8a8d04ab5fa94cfbe08" kind="variable"><name>money</name></member>
+    <member refid="class_sales__item_1a8371d7ede59e11ea3a3625dc689cf35d" kind="function"><name>Sales_item</name></member>
+    <member refid="class_sales__item_1a22888bd24b6c1befb13e49f6cc08f5fe" kind="function"><name>operator=</name></member>
+    <member refid="class_sales__item_1a195f131ec8fbe70b725824590fe2adf1" kind="function"><name>operator+=</name></member>
+    <member refid="class_sales__item_1a97082a9d19d5c095066cf97baeae9443" kind="friend"><name>operator+</name></member>
+    <member refid="class_sales__item_1ac07d2b2a058d92024f0be7b148130200" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="class_sales__item_1a45ad216f9cead7ee099588572d9ba4c4" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="class_str_blob" kind="class"><name>StrBlob</name>
+    <member refid="class_str_blob_1ac52b8ed15595d3c3396e6b0f4ef0695d" kind="typedef"><name>size_type</name></member>
+    <member refid="class_str_blob_1af391796e31937845d04e8a939c27351c" kind="variable"><name>_data</name></member>
+    <member refid="class_str_blob_1a3f8280ebf557193a61bb000c3462d36c" kind="function"><name>StrBlob</name></member>
+    <member refid="class_str_blob_1a83b6363005f962e29669207426fe42fe" kind="function"><name>StrBlob</name></member>
+    <member refid="class_str_blob_1a8723b931f377079bd8d74f66954c7fe5" kind="function"><name>size</name></member>
+    <member refid="class_str_blob_1a1db4fa8bfc0130ce07d73450236cf26e" kind="function"><name>empty</name></member>
+  </compound>
+  <compound refid="class_str_vec" kind="class"><name>StrVec</name>
+    <member refid="class_str_vec_1a329645b4acd92d35d34b845e71cabddc" kind="typedef"><name>size_t</name></member>
+    <member refid="class_str_vec_1a3cc951391d4baa836a0bfe225497a809" kind="variable"><name>alloc</name></member>
+    <member refid="class_str_vec_1a0d932f30cfc102248daeab1a305043b0" kind="variable"><name>_elments</name></member>
+    <member refid="class_str_vec_1af9e9502872d61f53588d4019f2d3e847" kind="variable"><name>_first_free</name></member>
+    <member refid="class_str_vec_1a9521c4ac9fc9cbcbf536ac54b9cd3a53" kind="variable"><name>_cap</name></member>
+    <member refid="class_str_vec_1a55d0d44b556352d7b78d69fec7a25353" kind="function"><name>StrVec</name></member>
+    <member refid="class_str_vec_1a938ca6bc1a8ab3c34b6918a11f05242b" kind="function"><name>StrVec</name></member>
+    <member refid="class_str_vec_1a12c68a02e6b0ae1dc496b8680d362f86" kind="function"><name>operator=</name></member>
+    <member refid="class_str_vec_1a06a7f7658937130106ec0a362648505b" kind="function"><name>~StrVec</name></member>
+    <member refid="class_str_vec_1a0abe4a785fe8bfab84a41f844dbe4388" kind="function"><name>push_back</name></member>
+    <member refid="class_str_vec_1a08a9f1648e06600a8b540d801c261621" kind="function"><name>size</name></member>
+    <member refid="class_str_vec_1a2cd51890dab8b9f3921e0028b25efd4b" kind="function"><name>capacity</name></member>
+    <member refid="class_str_vec_1a0933c3c2a5a23605b8c36158af649978" kind="function"><name>begin</name></member>
+    <member refid="class_str_vec_1ac944379eabd39da7f53ef45730d242b6" kind="function"><name>end</name></member>
+    <member refid="class_str_vec_1ad0064d6cbfa2ce362d73d63f6f021ca9" kind="function"><name>chk_n_alloc</name></member>
+    <member refid="class_str_vec_1a9d191c0cfc1b60791e019faa96299465" kind="function"><name>alloc_n_copy</name></member>
+    <member refid="class_str_vec_1a9934ad71b2cea1c9d8e266ce3b2dbfb0" kind="function"><name>free</name></member>
+    <member refid="class_str_vec_1a131cc28cadcfa077942282f76b0714cb" kind="function"><name>reallocate</name></member>
+  </compound>
+  <compound refid="class_text_query" kind="class"><name>TextQuery</name>
+    <member refid="class_text_query_1a81b5a05e984d9f72dbeed3f2f72fae0a" kind="typedef"><name>line_no</name></member>
+    <member refid="class_text_query_1accbe9c2bc7f5d8404a883bd906cb063f" kind="variable"><name>_file</name></member>
+    <member refid="class_text_query_1a28db588c0bb90c90c08bc1ace78eafc0" kind="variable"><name>_wm</name></member>
+    <member refid="class_text_query_1a70a14a7f2e00c7dfb691532b2f609554" kind="function"><name>TextQuery</name></member>
+    <member refid="class_text_query_1a3a846029637dd96dd8950665247471a5" kind="function"><name>query</name></member>
+  </compound>
+  <compound refid="class_tree_node" kind="class"><name>TreeNode</name>
+    <member refid="class_tree_node_1a55f9d9861056d3bcfe14fe0272a771c2" kind="variable"><name>value</name></member>
+    <member refid="class_tree_node_1a20c00279890e6159c289f28a261f16be" kind="variable"><name>count</name></member>
+    <member refid="class_tree_node_1aa510b883742959d72496ffcd6a2cbbac" kind="variable"><name>_left</name></member>
+    <member refid="class_tree_node_1adea6a78872ae17e5bdf08415fbb998a6" kind="variable"><name>_right</name></member>
+    <member refid="class_tree_node_1a984a98d5ccf7ef1f5a18094c6821f35d" kind="function"><name>TreeNode</name></member>
+    <member refid="class_tree_node_1afdc9a6301049b572177c8189981c669e" kind="function"><name>TreeNode</name></member>
+    <member refid="class_tree_node_1a4f4caf6c32f232425164a75e638934eb" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="class_vec" kind="class"><name>Vec</name>
+    <member refid="class_vec_1a9c6c23d4331daa1673337f4836a4f534" kind="variable"><name>element</name></member>
+    <member refid="class_vec_1a3a8d5ca9db6205da007dfdfaed744e60" kind="variable"><name>first_free</name></member>
+    <member refid="class_vec_1a8651bd0724e40f5dd24820e024c2e014" kind="variable"><name>cap</name></member>
+    <member refid="class_vec_1a5c11e966359cd8692e8a3ea92239469e" kind="variable"><name>alloc</name></member>
+    <member refid="class_vec_1a205bf548b98a3f6a2032854091f60ef8" kind="function"><name>Vec</name></member>
+    <member refid="class_vec_1aba2eb81747a48ac2c28b4141bba13519" kind="function"><name>Vec</name></member>
+    <member refid="class_vec_1a90bf23efb6803d9169953dc4d1b56279" kind="function"><name>Vec</name></member>
+    <member refid="class_vec_1a6eac55a6199de36a8afa576d356d1583" kind="function"><name>operator=</name></member>
+    <member refid="class_vec_1a740e7792aa68d642e608c4d9aa9043c2" kind="function"><name>~Vec</name></member>
+    <member refid="class_vec_1a3eca41d5ac2286fa53786b60da27c6f1" kind="function"><name>push_back</name></member>
+    <member refid="class_vec_1a8a4ebd44bae84a6138f76c93f3e7165d" kind="function"><name>size</name></member>
+    <member refid="class_vec_1a1724258120555faeeac0476f9a7c011b" kind="function"><name>capacity</name></member>
+    <member refid="class_vec_1ac67d373fa026439d2df28902ffd681f1" kind="function"><name>begin</name></member>
+    <member refid="class_vec_1ab129e71489f030cce720d2c088c0440b" kind="function"><name>end</name></member>
+    <member refid="class_vec_1a234b1b894959c986bbf551e4879e853c" kind="function"><name>reserve</name></member>
+    <member refid="class_vec_1a590d1d66fb1fbda3d656bdc50ebad63a" kind="function"><name>resize</name></member>
+    <member refid="class_vec_1ab93b743eb4b662b188ccea663a7af36b" kind="function"><name>resize</name></member>
+    <member refid="class_vec_1a519ef9cff69b99ed2e944d0462eab451" kind="function"><name>reallocate</name></member>
+    <member refid="class_vec_1af1f8251cbc9a16975c4a32221b7c7ddc" kind="function"><name>chk_n_alloc</name></member>
+    <member refid="class_vec_1a280adca83032b79f1cfb2d854fec40ba" kind="function"><name>free</name></member>
+    <member refid="class_vec_1a376720a1d11842b75c780779f786a2b5" kind="function"><name>wy_alloc_n_move</name></member>
+    <member refid="class_vec_1a11cb72ab9351bce7b33282d9929c684d" kind="function"><name>alloc_n_copy</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespacewjh" kind="namespace"><name>wjh</name>
+    <member refid="namespacewjh_1adade61e41ea31484b746d77d1ed35065" kind="function"><name>operator==</name></member>
+    <member refid="namespacewjh_1af2acb7e3b4783cd699c9701695c7721e" kind="function"><name>usecase__NullInstance</name></member>
+    <member refid="namespacewjh_1af2c507f1aa80fa586632c9d9de5d7e8d" kind="function"><name>backDog</name></member>
+  </compound>
+  <compound refid="ex16__4_8cpp" kind="file"><name>ex16_4.cpp</name>
+    <member refid="ex16__4_8cpp_1a6b6e6591c77b9b5abc4eeb3d24763d67" kind="function"><name>find</name></member>
+    <member refid="ex16__4_8cpp_1a6c84ae6a50f553603aa1405b46f7f51c" kind="function"><name>main_find</name></member>
+  </compound>
+  <compound refid="ex16__7_8cpp" kind="file"><name>ex16_7.cpp</name>
+    <member refid="ex16__7_8cpp_1a0c18a221385792b22ef23a7f1a886a54" kind="function"><name>getSize</name></member>
+  </compound>
+  <compound refid="src1_8cpp" kind="file"><name>src1.cpp</name>
+    <member refid="src1_8cpp_1aae0f48d173700f7e46d8f37aceecf70f" kind="function"><name>compair</name></member>
+  </compound>
+  <compound refid="src2_8cpp" kind="file"><name>src2.cpp</name>
+    <member refid="src2_8cpp_1ab641736dc57c4d5b2c5611e48b972a18" kind="variable"><name>ca</name></member>
+    <member refid="src2_8cpp_1a9d91e00ad92a7790552542c034eb785f" kind="variable"><name>cr</name></member>
+    <member refid="src2_8cpp_1a9f4b5c4f1ed14bd2f528cd37e8c3fad5" kind="function"><name>compare</name></member>
+    <member refid="src2_8cpp_1adb19f4ea3d29c4d4779f10c72a4b4890" kind="function"><name>pointerT</name></member>
+    <member refid="src2_8cpp_1ad0fbf7ead523a388c3b02d7c2918be28" kind="function"><name>referenceT</name></member>
+    <member refid="src2_8cpp_1a91b4ac76ca40b37cc8321c8f57397c04" kind="function"><name>fpointerT</name></member>
+    <member refid="src2_8cpp_1a866c070668e3bc99fcd407a5f9a4e9e7" kind="function"><name>foo</name></member>
+    <member refid="src2_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="src3_8cpp" kind="file"><name>src3.cpp</name>
+    <member refid="src3_8cpp_1a9deecd8c17ae1d3bef839f2a37eb6995" kind="variable"><name>num1</name></member>
+    <member refid="src3_8cpp_1a97181ec5972299e8107cbd04666cd22c" kind="variable"><name>num2</name></member>
+    <member refid="src3_8cpp_1a167aeafcbeafabc43c433118b9b7f52a" kind="variable"><name>num3</name></member>
+    <member refid="src3_8cpp_1a51b09fb24e16dde3e0f147c1c08993f2" kind="variable"><name>list</name></member>
+    <member refid="src3_8cpp_1aab5fe7433dabc9d074a926fdbf2bfa59" kind="variable"><name>list2</name></member>
+    <member refid="src3_8cpp_1ad1966934e5c5f3ebf25505309616ce35" kind="variable"><name>list3</name></member>
+    <member refid="src3_8cpp_1a4b465a29e0b9bab8225ac293bb0d67e1" kind="variable"><name>a</name></member>
+    <member refid="src3_8cpp_1ab4caee0501134b741d1f11bfa3ae7ec7" kind="variable"><name>a2</name></member>
+    <member refid="src3_8cpp_1aafe80d64508a05a94be4d07b648244d0" kind="variable"><name>b</name></member>
+    <member refid="src3_8cpp_1a9aeb000de2fa395e3aff1785a0843970" kind="variable"><name>c</name></member>
+    <member refid="src3_8cpp_1ab43cf1e9bb9ba89c6df1a189535265a9" kind="variable"><name>p1</name></member>
+    <member refid="src3_8cpp_1a3d8b68b625409f60fdc454759fbcb7c2" kind="variable"><name>p2</name></member>
+    <member refid="src3_8cpp_1ae11c7104ee6ec3ad6a2b47a6664dc5dc" kind="variable"><name>p22</name></member>
+    <member refid="src3_8cpp_1ac0818a8830384565287d7138487ebbb1" kind="variable"><name>p3</name></member>
+    <member refid="src3_8cpp_1a5077847c7940f8d802e0f3223e931683" kind="variable"><name>p4</name></member>
+  </compound>
+  <compound refid="vec_8h" kind="file"><name>vec.h</name>
+  </compound>
+  <compound refid="vec__main_8cpp" kind="file"><name>vec_main.cpp</name>
+    <member refid="vec__main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="compile__options_8h" kind="file"><name>compile_options.h</name>
+    <member refid="compile__options_8h_1a9a2bffade506076d55403eb282d994dd" kind="define"><name>VALUE_SEMANTICS</name></member>
+    <member refid="compile__options_8h_1abbda9d8df45fb85b944c43600a831b5e" kind="define"><name>COPY_AND_SWAP</name></member>
+  </compound>
+  <compound refid="ex13__28_8h" kind="file"><name>ex13_28.h</name>
+  </compound>
+  <compound refid="_has_ptr_8h" kind="file"><name>HasPtr.h</name>
+    <member refid="_has_ptr_8h_1a1cfb388febaa16bf1433fcaee57e1ebf" kind="function"><name>swap</name></member>
+  </compound>
+  <compound refid="msg__folder_8h" kind="file"><name>msg_folder.h</name>
+  </compound>
+  <compound refid="movable_8cpp" kind="file"><name>movable.cpp</name>
+    <member refid="movable_8cpp_1a2ea739aee604bd12d163e0d0970fc5be" kind="function"><name>getTemp</name></member>
+    <member refid="movable_8cpp_1a081c6179ea2e34a5761ca5e887432cf4" kind="function"><name>main1</name></member>
+    <member refid="movable_8cpp_1ad6d65ab7ae3e5ef769fd01b39cd63d07" kind="function"><name>getTemp2</name></member>
+    <member refid="movable_8cpp_1af095a232149097b5605064623a9345ac" kind="function"><name>main2</name></member>
+    <member refid="movable_8cpp_1a4f09132956dfee2d7e9ce720cda010ea" kind="function"><name>main3</name></member>
+    <member refid="movable_8cpp_1aee3b7c0c7f04609ceecd8045ac44256c" kind="function"><name>forwardValue</name></member>
+    <member refid="movable_8cpp_1a89e0eaa1653c51d7c9cf6683e0d23b5e" kind="function"><name>__processValue</name></member>
+    <member refid="movable_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="perfect_01forwarding_8cpp" kind="file"><name>perfect forwarding.cpp</name>
+    <member refid="perfect_01forwarding_8cpp_1aa58d3943b5373b78c7e70c71198b0181" kind="function"><name>f2</name></member>
+    <member refid="perfect_01forwarding_8cpp_1aab5296705d40aaa44d1027b40928771c" kind="function"><name>f2</name></member>
+    <member refid="perfect_01forwarding_8cpp_1abb8b8218760792d4e8e4ea8f9cd6ca9e" kind="function"><name>f2</name></member>
+    <member refid="perfect_01forwarding_8cpp_1afa25e366161fb651881b72ba7efc71ac" kind="function"><name>f2</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a605b9ba29fdf371ede2e62bd33983e6e" kind="function"><name>f1</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a2e6413ff11e6a9b8664572705c8f6583" kind="function"><name>f3</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a5629528700085b2b152fcb01c48b8f3c" kind="function"><name>foo</name></member>
+    <member refid="perfect_01forwarding_8cpp_1a49a4b11e50430aa0a78de989ea99e082" kind="function"><name>bar</name></member>
+  </compound>
+  <compound refid="___main___8cpp" kind="file"><name>_Main_.cpp</name>
+    <member refid="___main___8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="blob_8h" kind="file"><name>blob.h</name>
+  </compound>
+  <compound refid="common__tools_8cpp" kind="file"><name>common_tools.cpp</name>
+  </compound>
+  <compound refid="common__tools_8h" kind="file"><name>common_tools.h</name>
+    <member refid="common__tools_8h_1a2674d3d1dd2f17b85d8918c7e8bbd0ea" kind="define"><name>NULLOBJ</name></member>
+  </compound>
+  <compound refid="_sales__item_8h" kind="file"><name>Sales_item.h</name>
+    <member refid="_sales__item_8h_1ac07d2b2a058d92024f0be7b148130200" kind="function"><name>operator&gt;&gt;</name></member>
+    <member refid="_sales__item_8h_1a45ad216f9cead7ee099588572d9ba4c4" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="_sales__item_8h_1a4f455c62127cc8697085f2c09d8eb860" kind="function"><name>usecase_Sales_item</name></member>
+  </compound>
+  <compound refid="test__tools_8cpp" kind="file"><name>test_tools.cpp</name>
+  </compound>
+  <compound refid="test__tools_8h" kind="file"><name>test_tools.h</name>
+  </compound>
+  <compound refid="_str_blob_8h" kind="file"><name>StrBlob.h</name>
+  </compound>
+  <compound refid="_str_vec_8cpp" kind="file"><name>StrVec.cpp</name>
+  </compound>
+  <compound refid="_str_vec_8h" kind="file"><name>StrVec.h</name>
+  </compound>
+  <compound refid="readme_8md" kind="file"><name>readme.md</name>
+  </compound>
+  <compound refid="text__query_8cpp" kind="file"><name>text_query.cpp</name>
+    <member refid="text__query_8cpp_1aabd8da7f8c32d7a70ee9e89a155d2c16" kind="function"><name>runQueries</name></member>
+    <member refid="text__query_8cpp_1a35ae9fb08331b656b36b9e9a6620cc14" kind="function"><name>print</name></member>
+    <member refid="text__query_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="text__query_8h" kind="file"><name>text_query.h</name>
+    <member refid="text__query_8h_1aabd8da7f8c32d7a70ee9e89a155d2c16" kind="function"><name>runQueries</name></member>
+    <member refid="text__query_8h_1a35ae9fb08331b656b36b9e9a6620cc14" kind="function"><name>print</name></member>
+  </compound>
+  <compound refid="md__c_1_workspace_vs_wspace__cpp__primer_5th_exercises__text_query_readme" kind="page"><name>md_C:_workspace_vs_wspace_Cpp_Primer_5th_exercises_TextQuery_readme</name>
+  </compound>
+  <compound refid="dir_8bb4b82639480d486f9d9fbf47bad508" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template</name>
+  </compound>
+  <compound refid="dir_f436d9a4a5a4e99c13b3f69d924e26d1" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control</name>
+  </compound>
+  <compound refid="dir_73ee1171eec6cff3fe1ca483619c1a3f" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises</name>
+  </compound>
+  <compound refid="dir_7973d78e187017af2e67fb6903945746" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder</name>
+  </compound>
+  <compound refid="dir_51d0e6150a1cc2017e0081a51376c551" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics</name>
+  </compound>
+  <compound refid="dir_f61254fbda76499e1e30a25fff38a77b" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other</name>
+  </compound>
+  <compound refid="dir_2b388d96c98ae5cb97d77a53d61e4b58" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/StrBlob</name>
+  </compound>
+  <compound refid="dir_2a3eff853be673c60288640f6dd7321e" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/StrVec</name>
+  </compound>
+  <compound refid="dir_b8c2946b427f12bb9d1afa27dddec165" kind="dir"><name>C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery</name>
+  </compound>
+  <compound refid="dir_276de1ef4b336700f00e77274afd08a9" kind="dir"><name>C:/workspace/vs_wspace</name>
+  </compound>
+  <compound refid="dir_a5be7bbed3ff2f129951759fe96bf5d5" kind="dir"><name>C:/workspace</name>
+  </compound>
+</doxygenindex>

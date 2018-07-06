@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="text__query_8h" kind="file">
+    <compoundname>text_query.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">map</includes>
+    <includes local="no">set</includes>
+    <includes local="no">string</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="text__query_8cpp" local="yes">C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.cpp</includedby>
+    <incdepgraph>
+      <node id="199">
+        <label>string</label>
+      </node>
+      <node id="197">
+        <label>map</label>
+      </node>
+      <node id="195">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h</label>
+        <link refid="text_query.h"/>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+      </node>
+      <node id="200">
+        <label>fstream</label>
+      </node>
+      <node id="196">
+        <label>vector</label>
+      </node>
+      <node id="201">
+        <label>sstream</label>
+      </node>
+      <node id="203">
+        <label>iostream</label>
+      </node>
+      <node id="198">
+        <label>set</label>
+      </node>
+      <node id="202">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="204">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h</label>
+        <link refid="text_query.h"/>
+        <childnode refid="205" relation="include">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.cpp</label>
+        <link refid="text__query_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_text_query" prot="public">TextQuery</innerclass>
+    <innerclass refid="class_query_result" prot="public">QueryResult</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="text__query_8h_1aabd8da7f8c32d7a70ee9e89a155d2c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void runQueries</definition>
+        <argsstring>(ifstream &amp;fin)</argsstring>
+        <name>runQueries</name>
+        <param>
+          <type>ifstream &amp;</type>
+          <declname>fin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" line="54" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.cpp" bodystart="42" bodyend="64"/>
+        <references refid="class_query_result_1ae7e39841097b061a03fc3102b4598b52" compoundref="text__query_8h" startline="49">QueryResult::count</references>
+        <references refid="text__query_8cpp_1a35ae9fb08331b656b36b9e9a6620cc14" compoundref="text__query_8cpp" startline="66" endline="74">print</references>
+        <references refid="class_text_query_1a3a846029637dd96dd8950665247471a5" compoundref="text__query_8cpp" startline="26" endline="40">TextQuery::query</references>
+        <referencedby refid="text__query_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="text__query_8cpp" startline="76" endline="82">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="text__query_8h_1a35ae9fb08331b656b36b9e9a6620cc14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print</definition>
+        <argsstring>(const QueryResult &amp;qs)</argsstring>
+        <name>print</name>
+        <param>
+          <type>const <ref refid="class_query_result" kindref="compound">QueryResult</ref> &amp;</type>
+          <declname>qs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" line="56" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.cpp" bodystart="66" bodyend="74"/>
+        <references refid="class_query_result_1ae390f6317f2cd3494d37e6b43dc4bdde" compoundref="text__query_8h" startline="51">QueryResult::_file</references>
+        <references refid="class_query_result_1af70e9b1e98d83aa1ce53c1938a47729d" compoundref="text__query_8h" startline="50">QueryResult::_lines</references>
+        <references refid="class_query_result_1ae7e39841097b061a03fc3102b4598b52" compoundref="text__query_8h" startline="49">QueryResult::count</references>
+        <references refid="class_query_result_1a72092367e6779572237d2297333496f7" compoundref="text__query_8h" startline="48">QueryResult::word</references>
+        <referencedby refid="text__query_8h_1aabd8da7f8c32d7a70ee9e89a155d2c16" compoundref="text__query_8cpp" startline="42" endline="64">runQueries</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TEXT_QUERY_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TEXT_QUERY_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;set&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">指针成员变量：以下划线开头命名</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_query_result" kindref="compound">QueryResult</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_text_query" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_text_query" kindref="compound">TextQuery</ref><sp/>{</highlight></codeline>
+<codeline lineno="22" refid="class_text_query_1a81b5a05e984d9f72dbeed3f2f72fae0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_text_query_1a81b5a05e984d9f72dbeed3f2f72fae0a" kindref="member">line_no</ref><sp/>=<sp/>vector&lt;string&gt;::size_type;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_text_query" kindref="compound">TextQuery</ref>(ifstream&amp;<sp/>fin);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_query_result" kindref="compound">QueryResult</ref><sp/>query(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>word);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/>拷贝肯定是垃圾的，大家访问的都是同一个instance</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"></highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/>方案（一）：</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/>这个大data应该放堆上，为各个栈所共享。</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"></highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/>方案（二）：</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/>放在<sp/>前面/底层方法的栈上，然后按引用传给后面/上层的函数。</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>最后会在底层执行完后自行清栈销毁。</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39" refid="class_text_query_1accbe9c2bc7f5d8404a883bd906cb063f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>shared_ptr&lt;vector&lt;string&gt;&gt;<sp/><ref refid="class_text_query_1accbe9c2bc7f5d8404a883bd906cb063f" kindref="member">_file</ref>;</highlight></codeline>
+<codeline lineno="40" refid="class_text_query_1a28db588c0bb90c90c08bc1ace78eafc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>shared_ptr&lt;map&lt;string,<sp/>set&lt;line_no&gt;&gt;&gt;<sp/><ref refid="class_text_query_1a28db588c0bb90c90c08bc1ace78eafc0" kindref="member">_wm</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//map&lt;string,<sp/>shared_ptr&lt;set&lt;line_no&gt;&gt;&gt;<sp/>_wm;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//shared_ptr&lt;map&lt;string,<sp/>shared_ptr&lt;set&lt;line_no&gt;&gt;&gt;&gt;<sp/>_wm;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_query_result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_query_result" kindref="compound">QueryResult</ref><sp/>{</highlight></codeline>
+<codeline lineno="46" refid="class_query_result_1a48a46d22bb59fd413a568de8a436217a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_query_result_1a48a46d22bb59fd413a568de8a436217a" kindref="member">line_no</ref><sp/>=<sp/>vector&lt;string&gt;::size_type;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48" refid="class_query_result_1a72092367e6779572237d2297333496f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_query_result_1a72092367e6779572237d2297333496f7" kindref="member">word</ref>;</highlight></codeline>
+<codeline lineno="49" refid="class_query_result_1ae7e39841097b061a03fc3102b4598b52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>set&lt;line_no&gt;::size_type<sp/><ref refid="class_query_result_1ae7e39841097b061a03fc3102b4598b52" kindref="member">count</ref>;</highlight></codeline>
+<codeline lineno="50" refid="class_query_result_1af70e9b1e98d83aa1ce53c1938a47729d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>shared_ptr&lt;set&lt;line_no&gt;&gt;<sp/><ref refid="class_query_result_1af70e9b1e98d83aa1ce53c1938a47729d" kindref="member">_lines</ref>;</highlight></codeline>
+<codeline lineno="51" refid="class_query_result_1ae390f6317f2cd3494d37e6b43dc4bdde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>shared_ptr&lt;vector&lt;string&gt;&gt;<sp/><ref refid="class_query_result_1ae390f6317f2cd3494d37e6b43dc4bdde" kindref="member">_file</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="text__query_8h_1aabd8da7f8c32d7a70ee9e89a155d2c16" kindref="member">runQueries</ref>(ifstream&amp;<sp/>fin);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="text__query_8h_1a35ae9fb08331b656b36b9e9a6620cc14" kindref="member">print</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_query_result" kindref="compound">QueryResult</ref>&amp;<sp/>qs);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h"/>
+  </compounddef>
+</doxygen>

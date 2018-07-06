@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_query_result" kind="class" prot="public">
+    <compoundname>QueryResult</compoundname>
+    <includes refid="text__query_8h" local="no">text_query.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_query_result_1a48a46d22bb59fd413a568de8a436217a" prot="private" static="no">
+        <type>vector&lt; string &gt;::size_type</type>
+        <definition>using QueryResult::line_no =  vector&lt;string&gt;::size_type</definition>
+        <argsstring></argsstring>
+        <name>line_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" line="46" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_query_result_1a72092367e6779572237d2297333496f7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string QueryResult::word</definition>
+        <argsstring></argsstring>
+        <name>word</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" line="48" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="text__query_8h_1a35ae9fb08331b656b36b9e9a6620cc14" compoundref="text__query_8cpp" startline="66" endline="74">print</referencedby>
+        <referencedby refid="class_text_query_1a3a846029637dd96dd8950665247471a5" compoundref="text__query_8cpp" startline="26" endline="40">TextQuery::query</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_query_result_1ae7e39841097b061a03fc3102b4598b52" prot="public" static="no" mutable="no">
+        <type>set&lt; <ref refid="class_query_result_1a48a46d22bb59fd413a568de8a436217a" kindref="member">line_no</ref> &gt;::size_type</type>
+        <definition>set&lt;line_no&gt;::size_type QueryResult::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" line="49" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="text__query_8h_1a35ae9fb08331b656b36b9e9a6620cc14" compoundref="text__query_8cpp" startline="66" endline="74">print</referencedby>
+        <referencedby refid="class_text_query_1a3a846029637dd96dd8950665247471a5" compoundref="text__query_8cpp" startline="26" endline="40">TextQuery::query</referencedby>
+        <referencedby refid="text__query_8h_1aabd8da7f8c32d7a70ee9e89a155d2c16" compoundref="text__query_8cpp" startline="42" endline="64">runQueries</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_query_result_1af70e9b1e98d83aa1ce53c1938a47729d" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; set&lt; <ref refid="class_query_result_1a48a46d22bb59fd413a568de8a436217a" kindref="member">line_no</ref> &gt; &gt;</type>
+        <definition>shared_ptr&lt;set&lt;line_no&gt; &gt; QueryResult::_lines</definition>
+        <argsstring></argsstring>
+        <name>_lines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" line="50" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="text__query_8h_1a35ae9fb08331b656b36b9e9a6620cc14" compoundref="text__query_8cpp" startline="66" endline="74">print</referencedby>
+        <referencedby refid="class_text_query_1a3a846029637dd96dd8950665247471a5" compoundref="text__query_8cpp" startline="26" endline="40">TextQuery::query</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_query_result_1ae390f6317f2cd3494d37e6b43dc4bdde" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; vector&lt; string &gt; &gt;</type>
+        <definition>shared_ptr&lt;vector&lt;string&gt; &gt; QueryResult::_file</definition>
+        <argsstring></argsstring>
+        <name>_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" line="51" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="text__query_8h_1a35ae9fb08331b656b36b9e9a6620cc14" compoundref="text__query_8cpp" startline="66" endline="74">print</referencedby>
+        <referencedby refid="class_text_query_1a3a846029637dd96dd8950665247471a5" compoundref="text__query_8cpp" startline="26" endline="40">TextQuery::query</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="39">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="40">
+        <label>std::set&lt; line_no &gt;</label>
+      </node>
+      <node id="37">
+        <label>QueryResult</label>
+        <link refid="class_query_result"/>
+        <childnode refid="38" relation="usage">
+          <edgelabel>word</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>count</edgelabel>
+        </childnode>
+      </node>
+      <node id="38">
+        <label>std::string</label>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" line="45" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery/text_query.h" bodystart="45" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_query_result_1ae390f6317f2cd3494d37e6b43dc4bdde" prot="public" virt="non-virtual"><scope>QueryResult</scope><name>_file</name></member>
+      <member refid="class_query_result_1af70e9b1e98d83aa1ce53c1938a47729d" prot="public" virt="non-virtual"><scope>QueryResult</scope><name>_lines</name></member>
+      <member refid="class_query_result_1ae7e39841097b061a03fc3102b4598b52" prot="public" virt="non-virtual"><scope>QueryResult</scope><name>count</name></member>
+      <member refid="class_query_result_1a48a46d22bb59fd413a568de8a436217a" prot="private" virt="non-virtual"><scope>QueryResult</scope><name>line_no</name></member>
+      <member refid="class_query_result_1a72092367e6779572237d2297333496f7" prot="public" virt="non-virtual"><scope>QueryResult</scope><name>word</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

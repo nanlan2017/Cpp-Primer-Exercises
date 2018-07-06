@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_73ee1171eec6cff3fe1ca483619c1a3f" kind="dir">
+    <compoundname>C:/workspace/vs_wspace/Cpp Primer 5th exercises</compoundname>
+    <innerdir refid="dir_8bb4b82639480d486f9d9fbf47bad508">C:/workspace/vs_wspace/Cpp Primer 5th exercises/16_template</innerdir>
+    <innerdir refid="dir_f436d9a4a5a4e99c13b3f69d924e26d1">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Copy Control</innerdir>
+    <innerdir refid="dir_7973d78e187017af2e67fb6903945746">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Message and  Folder</innerdir>
+    <innerdir refid="dir_51d0e6150a1cc2017e0081a51376c551">C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics</innerdir>
+    <innerdir refid="dir_f61254fbda76499e1e30a25fff38a77b">C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other</innerdir>
+    <innerdir refid="dir_2b388d96c98ae5cb97d77a53d61e4b58">C:/workspace/vs_wspace/Cpp Primer 5th exercises/StrBlob</innerdir>
+    <innerdir refid="dir_2a3eff853be673c60288640f6dd7321e">C:/workspace/vs_wspace/Cpp Primer 5th exercises/StrVec</innerdir>
+    <innerdir refid="dir_b8c2946b427f12bb9d1afa27dddec165">C:/workspace/vs_wspace/Cpp Primer 5th exercises/TextQuery</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_51d0e6150a1cc2017e0081a51376c551" kind="dir">
+    <compoundname>C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics</compoundname>
+    <innerfile refid="movable_8cpp">movable.cpp</innerfile>
+    <innerfile refid="perfect_01forwarding_8cpp">perfect forwarding.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/"/>
+  </compounddef>
+</doxygen>

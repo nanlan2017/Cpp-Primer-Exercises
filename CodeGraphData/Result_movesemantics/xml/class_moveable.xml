@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_moveable" kind="class" prot="public">
+    <compoundname>Moveable</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_moveable_1a07ecb168c0603d1f6f9a5936f18af66f" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* Moveable::_i</definition>
+        <argsstring></argsstring>
+        <name>_i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="130" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_moveable_1ace0f0bd4d63befee802e8f02bafebbfe" prot="public" static="no" mutable="no">
+        <type><ref refid="class_huge_mem" kindref="compound">HugeMem</ref></type>
+        <definition>HugeMem Moveable::res</definition>
+        <argsstring></argsstring>
+        <name>res</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="131" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_moveable_1a0fa75367f721e584dd49ec4e936c9e24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Moveable::Moveable</definition>
+        <argsstring>()</argsstring>
+        <name>Moveable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="110" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_moveable_1af1801d5a52afa1a75ae1942c243c9dd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Moveable::Moveable</definition>
+        <argsstring>(Moveable &amp;&amp;rTemp) noexcept</argsstring>
+        <name>Moveable</name>
+        <param>
+          <type><ref refid="class_moveable" kindref="compound">Moveable</ref> &amp;&amp;</type>
+          <declname>rTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="118" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_moveable_1a09e0592f25e24d4d73674cc4fab56d31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Moveable::~Moveable</definition>
+        <argsstring>()</argsstring>
+        <name>~Moveable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="125" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>Moveable</label>
+        <link refid="class_moveable"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>res</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>HugeMem</label>
+        <link refid="class_huge_mem"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" line="108" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/move semantics/movable.cpp" bodystart="107" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_moveable_1a07ecb168c0603d1f6f9a5936f18af66f" prot="public" virt="non-virtual"><scope>Moveable</scope><name>_i</name></member>
+      <member refid="class_moveable_1a0fa75367f721e584dd49ec4e936c9e24" prot="public" virt="non-virtual"><scope>Moveable</scope><name>Moveable</name></member>
+      <member refid="class_moveable_1af1801d5a52afa1a75ae1942c243c9dd8" prot="public" virt="non-virtual"><scope>Moveable</scope><name>Moveable</name></member>
+      <member refid="class_moveable_1ace0f0bd4d63befee802e8f02bafebbfe" prot="public" virt="non-virtual"><scope>Moveable</scope><name>res</name></member>
+      <member refid="class_moveable_1a09e0592f25e24d4d73674cc4fab56d31" prot="public" virt="non-virtual"><scope>Moveable</scope><name>~Moveable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

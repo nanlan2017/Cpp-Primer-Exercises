@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classwjh_1_1_dog" kind="class" prot="public">
+    <compoundname>wjh::Dog</compoundname>
+    <includes refid="test__tools_8h" local="no">test_tools.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwjh_1_1_dog_1a2903c52b1b896f3bff31df0ff998454d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wjh::Dog::age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.h" line="10" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwjh_1_1_dog_1a915df53b0b90d0a6b06763bdab410e9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wjh::Dog::Dog</definition>
+        <argsstring>()=default</argsstring>
+        <name>Dog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.h" line="8" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.h" line="6" column="1" bodyfile="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/test_tools.h" bodystart="6" bodyend="11"/>
+    <listofallmembers>
+      <member refid="classwjh_1_1_dog_1a2903c52b1b896f3bff31df0ff998454d" prot="public" virt="non-virtual"><scope>wjh::Dog</scope><name>age</name></member>
+      <member refid="classwjh_1_1_dog_1a915df53b0b90d0a6b06763bdab410e9b" prot="public" virt="non-virtual"><scope>wjh::Dog</scope><name>Dog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

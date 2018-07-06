@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="common__tools_8cpp" kind="file">
+    <compoundname>common_tools.cpp</compoundname>
+    <includes refid="common__tools_8h" local="yes">common_tools.h</includes>
+    <includes refid="test__tools_8h" local="yes">test_tools.h</includes>
+    <incdepgraph>
+      <node id="132">
+        <label>common_tools.h</label>
+        <link refid="common__tools_8h"/>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>test_tools.h</label>
+        <link refid="test__tools_8h"/>
+      </node>
+      <node id="133">
+        <label>iostream</label>
+      </node>
+      <node id="131">
+        <label>C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.cpp</label>
+        <link refid="common_tools.cpp"/>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common__tools_8h" kindref="compound">common_tools.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="test__tools_8h" kindref="compound">test_tools.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classwjh_1_1_dog" kindref="compound">wjh::Dog</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="classwjh_1_1_null_instance" kindref="compound">wjh::NullInstance</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacewjh_1af2acb7e3b4783cd699c9701695c7721e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespacewjh_1af2acb7e3b4783cd699c9701695c7721e" kindref="member">wjh::usecase__NullInstance</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classwjh_1_1_dog" kindref="compound">Dog</ref><sp/>dog1;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dog1<sp/>==<sp/><ref refid="classwjh_1_1_null_instance" kindref="compound">NullInstance&lt;Dog&gt;</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;dog1<sp/>is<sp/>\&quot;the<sp/>null<sp/>dog\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;dog1<sp/>is<sp/>another<sp/>dog&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classwjh_1_1_dog" kindref="compound">Dog</ref><sp/>dog2<sp/>=<sp/><ref refid="namespacewjh_1af2c507f1aa80fa586632c9d9de5d7e8d" kindref="member">wjh::backDog</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(dog2==<sp/><ref refid="classwjh_1_1_null_instance" kindref="compound">NullInstance&lt;Dog&gt;</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;the<sp/>Dog<sp/>instance<sp/>returned<sp/>is<sp/>\&quot;master-dog\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;failed<sp/>test&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/workspace/vs_wspace/Cpp Primer 5th exercises/Other/common_tools.cpp"/>
+  </compounddef>
+</doxygen>
